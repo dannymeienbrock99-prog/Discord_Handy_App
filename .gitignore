@@ -1,0 +1,38 @@
+# Lokale Abhängigkeiten und Build-Ergebnisse
+node_modules/
+__pycache__/
+.gradle/
+**/build/
+**/bin/
+**/obj/
+**/dist/
+private/
+toolchain/
+output/
+server/data/
+
+# Zugangsdaten, lokale Einstellungen und Laufzeitdaten
+.env
+.env.*
+!.env.example
+local.properties
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.key
+*.pem
+signing-password.txt
+*.dpapi
+*.db
+*.sqlite
+*.sqlite3
+
+# Installationsdateien werden separat und privat bereitgestellt
+*.apk
+*.aab
+*.exe
+*.msi
+*.zip
+server/releases/*
+!server/releases/README.md
