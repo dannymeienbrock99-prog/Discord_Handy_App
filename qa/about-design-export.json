@@ -1,0 +1,53 @@
+{
+  "staticDesignOnly": true,
+  "browserVerified": false,
+  "exports": [
+    {
+      "filename": "Crazy_Batto-Ueber-mich-Gestaltung-Desktop.png",
+      "width": 1536,
+      "height": 965,
+      "method": "Static canvas composition, not browser screenshot",
+      "font": "DejaVu Sans approximates system-ui; browser font metrics unverified",
+      "paragraphLines": [
+        [
+          "Crazy_Batto"
+        ],
+        [
+          "Inhaber und Gründer von Team TABH"
+        ],
+        [
+          "36 Jahre alt"
+        ],
+        [
+          "Social-Media-Content-Creator für Hardware und Gaming"
+        ]
+      ],
+      "portraitCrop": false,
+      "portraitSourceSha256": "43ce2e759bd796f53da84451067aa816aa88af14bff0596fcc9775b8ad6e9ffc"
+    },
+    {
+      "filename": "Crazy_Batto-Ueber-mich-Gestaltung-Handy.png",
+      "width": 390,
+      "height": 844,
+      "method": "Static canvas composition, not browser screenshot",
+      "font": "DejaVu Sans approximates system-ui; browser font metrics unverified",
+      "paragraphLines": [
+        [
+          "Crazy_Batto"
+        ],
+        [
+          "Inhaber und Gründer von Team TABH"
+        ],
+        [
+          "36 Jahre alt"
+        ],
+        [
+          "Social-Media-Content-Creator für",
+          "Hardware und Gaming"
+        ]
+      ],
+      "portraitCrop": false,
+      "portraitSourceSha256": "43ce2e759bd796f53da84451067aa816aa88af14bff0596fcc9775b8ad6e9ffc"
+    }
+  ]
+}

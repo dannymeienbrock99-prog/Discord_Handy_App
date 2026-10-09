@@ -1,0 +1,6 @@
+Native image/link contract: 146 assertions passed. No network requests.
+Discord error parser: 102 assertions passed with real org.json20240303. No network requests.
+Native v2 send/state contract: 110 assertions passed. No network requests.
+Native backend/auth contract: 139 assertions passed. No network requests.
+Native backend HTTP transport: 28 assertions passed with offline HTTPS fixtures. No network requests.
+Native approval contract: 38 assertions passed. No network requests.

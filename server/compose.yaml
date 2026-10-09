@@ -1,0 +1,51 @@
+services:
+  modstempel:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 8080
+      DATA_DIR: /data
+      TRUST_PROXY: 1
+      APK_PATH: /releases/Crazy_Batto-Discord-App-${APK_VERSION:-2.2.0}.apk
+    volumes:
+      - modstempel_data:/data
+      - ./releases:/releases:ro
+    expose:
+      - "8080"
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    stop_grace_period: 180s
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8080/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    environment:
+      PUBLIC_HOST: ${PUBLIC_HOST:?PUBLIC_HOST in .env eintragen}
+      ACME_EMAIL: ${ACME_EMAIL:?ACME_EMAIL in .env eintragen}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      modstempel:
+        condition: service_healthy
+volumes:
+  modstempel_data:
+  caddy_data:
+  caddy_config:

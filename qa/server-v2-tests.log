@@ -1,0 +1,52 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> modstempel-server@2.0.0 test
+> node --test test/*.test.mjs
+
+✔ no configuration reports unconfigured and never fabricates login (6.083737ms)
+✔ device claim is bound to verifier and repeats the same encrypted session for two minutes (11.850488ms)
+✔ OAuth state and browser binding reject forged callbacks, missing scopes and replay (5.894678ms)
+✔ cancel, expiry and logout cannot be mistaken for authenticated state (4.515328ms)
+✔ native display-code character contract holds for independent login requests (14.983131ms)
+✔ expired Discord tokens refresh once across concurrent reads and remain encrypted (6.097272ms)
+✔ temporary OAuth failures keep tokens and all app sessions; a later refresh can succeed (8.42306ms)
+✔ confirmed invalid_grant revokes the app sessions that can no longer authenticate (5.000764ms)
+✔ global Discord backoff stops other bot routes until the exact deadline (5.538741ms)
+✔ ambiguous network failures are uncertain while proven connection failures are retryable (0.392211ms)
+✔ HTTP unconfigured, auth failure, not_found and origin errors retain the public JSON contract (71.81507ms)
+✔ real HTTP multipart upload reaches the mocked Discord API unchanged and repeated JSON resumes the same ID (44.549169ms)
+✔ HTTP login only redirects to Discord and callback needs its protected browser cookie (22.041603ms)
+✔ multipart parser rejects duplicated fields and incomplete upload terminators (1.228022ms)
+✔ category payloads have only the intended mentions and ignore untrusted raw payload fields (4.180152ms)
+✔ image plus poll uses two durable phases with byte-exact upload and one ping (24.122872ms)
+✔ failed poll retains image ACK across restart and explicit retry needs no image file or upload permission (14.237377ms)
+✔ unknown POST outcome survives restart and cannot be resent without explicit acknowledgement (8.550282ms)
+✔ known 429 stays pending, waits until its deadline and resumes without a repeated image upload (9.799125ms)
+✔ duplicate ID is immutable and actor-bound; failed messages do not block unrelated operations (11.156061ms)
+✔ concurrent submissions and GET status never create a second message (7.367208ms)
+✔ process restart maps an unacknowledged sending phase to uncertain without external traffic (7.108419ms)
+✔ failure to persist image ACK prevents the second phase and exposes uncertain delivery (11.370364ms)
+✔ role configuration is checked at acceptance and a retry preserves the original target (12.708081ms)
+✔ stamps use authenticated identity and require the configured moderator role or manager (8.969163ms)
+✔ scheduled event needs CREATE_EVENTS and makes exactly one external event with ISO times (7.380459ms)
+✔ unknown event outcome cannot auto-create an additional event and past starts are rejected (6.688104ms)
+✔ image metadata mismatch is rejected before acceptance or Discord POST (2.998171ms)
+✔ lost Discord membership is forbidden and cannot be confused with a missing local operation (4.156518ms)
+✔ poll results keep Discord wire shape, missing counts stay unknown, prior results can become stale (11.232566ms)
+✔ permissions combine role overrides before member overrides and ignore role positions (4.003606ms)
+✔ timeouts and membership screening cannot regain send rights from overwrites (1.640304ms)
+✔ owner and administrator bypass local overwrites, but never foreign guild channels (0.825234ms)
+✔ capabilities require both actors and keep mentionable moderator role distinct from everyone (2.233127ms)
+✔ setup hides channels the user cannot view and rejects unrelated role configuration (16.129289ms)
+✔ private store is atomic, rejects a second live process and keeps the last valid state after a failed transaction (4.480726ms)
+✔ Linux PID reuse cannot leave an old container lock permanently blocking restart (2.065955ms)
+✔ AES-GCM detects modified ciphertext and wrong encryption keys (2.058043ms)
+✔ Docker entrypoint flock excludes a second writer and releases the lock after exit (144.308522ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 265.435126

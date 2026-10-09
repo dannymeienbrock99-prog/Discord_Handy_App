@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-09T20:32:08.184Z",
+  "status": "blocked_dom_runtime_unavailable",
+  "scope": "Static snapshot and syntax checks only; site.js was not executed in a DOM or browser.",
+  "runtimeAvailability": {
+    "jsdom": false,
+    "linkedom": false,
+    "happyDom": false,
+    "checkedNestedPrimaryAndArtifactPackages": true
+  },
+  "source": {
+    "script": "server/public/site/site.js",
+    "scriptSha256": "3a8e0fc04fae1de6cfaf02236da8534d855abdb97fdfacb62c9544c042494d7c",
+    "snapshot": "Temporary public HTTP response from a fresh local fixture; not a production store",
+    "snapshotSha256": "291a9e2c8ea72dbe6262c6367edc6dabe867cd3b04e83855291ee70f3b60489a"
+  },
+  "staticChecks": [
+    {
+      "name": "Public snapshot contains exactly the four supplied biography lines",
+      "status": "passed"
+    },
+    {
+      "name": "Public snapshot references exactly the expected portrait image ID and canonical local media URL",
+      "status": "passed"
+    },
+    {
+      "name": "Public snapshot leaves setup and other apps empty",
+      "status": "passed"
+    },
+    {
+      "name": "Actual site.js parses as valid JavaScript",
+      "status": "passed"
+    }
+  ],
+  "notExecuted": [
+    "DOM rendering of the four supplied text lines",
+    "Rendered portrait URL and element count",
+    "About section visibility after script execution",
+    "Setup and apps sections hidden after script execution",
+    "HTML-like text remains text when rendered",
+    "Image dialog interactions",
+    "Browser layout and visual inspection"
+  ],
+  "sourceReview": "aboutText uses createElement/createTextNode/textContent, preserves the supplied newline characters and wraps Team TABH in a strong element without changing its text. Reviewed in source; not executed in a DOM."
+}

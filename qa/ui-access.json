@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "tests": [
+    "desktop welcome and no unauthenticated download",
+    "privacy dialog and keyboard close",
+    "explicit registration with note and CSRF, followed by pending",
+    "rejection/revocation hides download and renders owner note safely as text",
+    "approved download and exact current server address",
+    "failed fresh check removes stale download",
+    "portal no horizontal overflow at 320/390/720/1024/1536",
+    "real logout call returns portal to logged-out state",
+    "pending Android denies guild fetch and new duty",
+    "pending Android portal action and local JSON export",
+    "approved Android selects actual mock guild/channel and enables duty",
+    "revoked active duty stays locally pausable and finishable",
+    "all five Android views without overflow at 320/390/560"
+  ],
+  "errors": [],
+  "method": "Local Playwright Chromium; mocked portal API and native bridge, no live Discord or public deployment.",
+  "fallbackReason": "No Browser/IAB connection is available to this local development container."
+}

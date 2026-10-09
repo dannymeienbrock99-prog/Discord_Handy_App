@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/dotnet/maintenance-packages/6b84308c9ad012f53240d72c1d716d7e42546483/LICENSE

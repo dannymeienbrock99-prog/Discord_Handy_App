@@ -1,0 +1,48 @@
+{
+  "path": "/workspace/scratch/1d6606c2c98f/output/Crazy_Batto-Discord-App-Verwaltung-2.2.0.zip",
+  "size": 15580944,
+  "sha256": "c28ac495136db46e7398844d03541f1bfd138da29df1f5f2376b8d361aff327b",
+  "files": 30,
+  "assertions": 168,
+  "imports": {
+    "x64": {
+      "machine": "0x8664",
+      "direct": [
+        "ole32.dll",
+        "USER32.dll",
+        "FONTSUB.dll",
+        "KERNEL32.dll"
+      ],
+      "delay": [
+        "d3d12.dll",
+        "D3DCOMPILER_47.dll"
+      ]
+    },
+    "x86": {
+      "machine": "0x14c",
+      "direct": [
+        "ole32.dll",
+        "USER32.dll",
+        "FONTSUB.dll",
+        "KERNEL32.dll"
+      ],
+      "delay": [
+        "d3d12.dll",
+        "D3DCOMPILER_47.dll"
+      ]
+    },
+    "arm64": {
+      "machine": "0xaa64",
+      "direct": [
+        "ole32.dll",
+        "USER32.dll",
+        "FONTSUB.dll",
+        "KERNEL32.dll"
+      ],
+      "delay": [
+        "d3d12.dll",
+        "D3DCOMPILER_47.dll"
+      ]
+    }
+  }
+}

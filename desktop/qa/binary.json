@@ -1,0 +1,16 @@
+{
+  "version": "2.1.0",
+  "format": "Windows PE32 CLR .NET Framework 4.8 GUI AnyCPU",
+  "guiSubsystem": 2,
+  "exeBytes": 421888,
+  "exeSha256": "bb32e1be16bc1dfd55e0934daa949aad583f47191e2ba649b7f240c077d92199",
+  "backgroundSha256": "99ee1da73144c9729d4be2c7f7f6016db45afe04e53df5647ed65e8e6e77a022",
+  "originalBackgroundEmbeddedUnchanged": true,
+  "testCodeExcluded": true,
+  "testAssertions": 93,
+  "testResult": "passed",
+  "windowsRuntimeTested": false,
+  "liveDiscordTested": false,
+  "packageSha256": "aba2cf193817a06b12d9d35780f68d5d259a01583c4872d0a294821e2ab000a3",
+  "packageBytes": 379772
+}

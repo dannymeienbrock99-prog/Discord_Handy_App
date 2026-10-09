@@ -1,0 +1,274 @@
+{
+  "version": "2.2.0",
+  "checkedOn": "2026-10-09",
+  "package": {
+    "name": "app.modstempel.mobile",
+    "versionCode": 10,
+    "versionName": "2.2.0",
+    "minSdk": 26,
+    "targetSdk": 35,
+    "applicationLabel": "Crazy_Batto Discord App",
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_NETWORK_STATE"
+    ]
+  },
+  "apk": {
+    "file": "Crazy_Batto-Discord-App-2.2.0.apk",
+    "bytes": 2897205,
+    "sha256": "5b2d762e10b22082048b76d420ce7a179598c387b7d7af3600683e538893cd04"
+  },
+  "previousApk": {
+    "file": "Modstempel-2.1.0.apk",
+    "bytes": 2897205,
+    "sha256": "95e73adfc8359d8d3bbed7cb04b3b2cb5008d12f180536e83e1e6c35397c804c"
+  },
+  "signature": {
+    "verificationPassed": true,
+    "v2": true,
+    "v3": true,
+    "signerCount": 1,
+    "certificateSha256": "c6ba05258739e61cd809479071abd85bd52e6a8a5f667fc1d2642b752bb35da3",
+    "sameUpdateSigner": true,
+    "evidence": "apksigner --verbose --print-certs on current 2.2 and previous 2.1 APKs; identical original fingerprint"
+  },
+  "zipalign": {
+    "passed": true,
+    "pageAlignmentKiB": 16,
+    "alignmentBytes": 4
+  },
+  "webAssets": [
+    {
+      "name": "assets/background-batto.jpeg",
+      "bytes": 342034,
+      "sha256": "99ee1da73144c9729d4be2c7f7f6016db45afe04e53df5647ed65e8e6e77a022",
+      "sourceEqualsPackaged": true
+    },
+    {
+      "name": "bridge.js",
+      "bytes": 5913,
+      "sha256": "477d661a229388853379d027d13eadf29dcc4e0c97205c6cd38de613e61527ae",
+      "sourceEqualsPackaged": true
+    },
+    {
+      "name": "core-v2.js",
+      "bytes": 49327,
+      "sha256": "14c6fe7bec1e7bb6bb968e11c176b1928b465aab81dfcc3863c015075df1fbda",
+      "sourceEqualsPackaged": true
+    },
+    {
+      "name": "core.js",
+      "bytes": 49269,
+      "sha256": "aed9a2303b7dc62962723fdceea168de1e6e69e7508c9dabc65824fbeca2b4dd",
+      "sourceEqualsPackaged": true
+    },
+    {
+      "name": "icons.svg",
+      "bytes": 4458,
+      "sha256": "c0ee02855d7fb5496611a11ff884f9c4d62180595c5f6fe6428efce5be3b443a",
+      "sourceEqualsPackaged": true
+    },
+    {
+      "name": "index.html",
+      "bytes": 25923,
+      "sha256": "92578a3a0f9379de70aaa8df437c87df326bcfa9a49a137c3bf4ba9e8b39cba9",
+      "sourceEqualsPackaged": true
+    },
+    {
+      "name": "styles.css",
+      "bytes": 42026,
+      "sha256": "0ea5589765cd20005b6995e794e59626749e35ba040ac0e02ed6fcbcc45af2b5",
+      "sourceEqualsPackaged": true
+    },
+    {
+      "name": "ui.js",
+      "bytes": 76683,
+      "sha256": "331a2330c60dcf9e14a3b240b4ecacc5100fcd693a9f1042504d76c5b6b6a3d0",
+      "sourceEqualsPackaged": true
+    }
+  ],
+  "background": {
+    "sha256": "99ee1da73144c9729d4be2c7f7f6016db45afe04e53df5647ed65e8e6e77a022",
+    "originalUnchanged": true,
+    "sourceCopies": [
+      "web/assets/background-batto.jpeg",
+      "server/public/background-batto.jpeg",
+      "server/public/site/brand-dragon.jpeg",
+      "desktop/assets/background.jpeg"
+    ]
+  },
+  "launcherLogo": {
+    "apkPath": "res/drawable-nodpi-v4/moderation_original.png",
+    "sha256": "69c328f3c5ccca308fc29e77837445f7b797d72d6eae4a514dcca351e1c25953",
+    "originalUnchanged": true
+  },
+  "privateDownloadApk": {
+    "sourceEqualsApk": true,
+    "path": "server/releases/Crazy_Batto-Discord-App-2.2.0.apk",
+    "noApkInPublicAssets": true
+  },
+  "apkContents": {
+    "privateFilesBundled": false,
+    "testFilesBundled": false,
+    "embeddedWebhookUrls": false,
+    "embeddedPrivateKeyBlocks": false,
+    "newAppNameAndApprovalFeaturesPresent": true
+  },
+  "windowsPackage": {
+    "file": "Crazy_Batto-Discord-App-Verwaltung-2.2.0.zip",
+    "bytes": 15580944,
+    "sha256": "c28ac495136db46e7398844d03541f1bfd138da29df1f5f2376b8d361aff327b",
+    "files": 30
+  },
+  "windowsVerification": {
+    "binary": {
+      "passed": true,
+      "assemblyName": "Crazy_Batto-Discord-App-Verwaltung",
+      "version": "2.2.0.0",
+      "targetFramework": ".NETFramework,Version=v4.8",
+      "subsystem": "WindowsGui",
+      "machine": "I386",
+      "corFlags": "ILOnly",
+      "anyCpu": true,
+      "authenticodePresent": false,
+      "embeddedBackgroundUnchanged": true,
+      "backgroundSha256": "99ee1da73144c9729d4be2c7f7f6016db45afe04e53df5647ed65e8e6e77a022",
+      "exeSha256": "86ca9d3b4c63797e5fde9c857c8b0a36a82c1bb2d522e8ab7f53216532561556",
+      "size": 505856
+    },
+    "coreHttpWebsiteAndImageAssertions": 168,
+    "windowsRuntimeTested": false,
+    "imageDecoderExecutedOn": "Linux, SkiaSharp 4.153.1",
+    "nativeWindowsImports": {
+      "x64": {
+        "machine": "0x8664",
+        "direct": [
+          "ole32.dll",
+          "USER32.dll",
+          "FONTSUB.dll",
+          "KERNEL32.dll"
+        ],
+        "delay": [
+          "d3d12.dll",
+          "D3DCOMPILER_47.dll"
+        ]
+      },
+      "x86": {
+        "machine": "0x14c",
+        "direct": [
+          "ole32.dll",
+          "USER32.dll",
+          "FONTSUB.dll",
+          "KERNEL32.dll"
+        ],
+        "delay": [
+          "d3d12.dll",
+          "D3DCOMPILER_47.dll"
+        ]
+      },
+      "arm64": {
+        "machine": "0xaa64",
+        "direct": [
+          "ole32.dll",
+          "USER32.dll",
+          "FONTSUB.dll",
+          "KERNEL32.dll"
+        ],
+        "delay": [
+          "d3d12.dll",
+          "D3DCOMPILER_47.dll"
+        ]
+      }
+    },
+    "openChecks": [
+      "Windows UI and DPI",
+      "Windows image DLL execution",
+      "DPAPI",
+      "Tray notifications",
+      "Autostart",
+      "Real configured Discord login"
+    ]
+  },
+  "websiteDefault": {
+    "personalTextEmpty": false,
+    "personalImagesEmpty": false,
+    "componentsAndAppsEmpty": true,
+    "initialHeroUsesOriginalProvidedDragon": true,
+    "seedSha256": "3825f4d4a0686ff181fcb9e043b8fe3a74a1120ec5376dc318c2207004776b1a",
+    "ownerEditingAndPublicPublicationSeparated": true,
+    "liveDeployed": false,
+    "aboutText": "Crazy_Batto\nInhaber und Gründer von Team TABH\n36 Jahre alt\nSocial-Media-Content-Creator für Hardware und Gaming",
+    "portraitSha256": "43ce2e759bd796f53da84451067aa816aa88af14bff0596fcc9775b8ad6e9ffc",
+    "portraitBytes": 86319,
+    "originalPortraitUnchanged": true,
+    "firstStartOnly": true,
+    "existingSiteDataPreserved": true
+  },
+  "verification": {
+    "serverTestsPassed": 87,
+    "siteTestsIncludedInServerTotal": 32,
+    "http": {
+      "ok": true,
+      "exactCopy": true,
+      "originalPortraitBytes": true,
+      "publicPageAndPortal": true,
+      "privateSeedPath404": true,
+      "discordCalls": 0,
+      "liveDeployed": false
+    },
+    "staticChecksPassed": 4,
+    "browserExecuted": false,
+    "domExecuted": false,
+    "staticDesignExportsInspected": true
+  },
+  "limitations": {
+    "physicalAndroidDeviceTested": false,
+    "realWindowsUiDpapiTrayAutostartTested": false,
+    "windowsNativeImageDllExecuted": false,
+    "imageCodecExecutedOn": "Linux",
+    "liveDiscordTested": false,
+    "publicHttpsDeployed": false,
+    "dockerImageBuilt": false,
+    "loadTested": false,
+    "currentWebsiteBrowserVerified": false,
+    "staticDesignExportOnly": true
+  },
+  "allPerformedChecksPassed": true,
+  "websiteContentRevision": "Website-Portraet-2026-10-09",
+  "binaryVerificationScope": "Retained verification of unchanged Android/Windows 2.2.0 binaries from the original release. No Android or Windows rebuild performed for this website content update.",
+  "originalReleaseVerificationBeforePortrait": {
+    "javascriptTestsPassed": 106,
+    "backendTestsPassed": 71,
+    "nativeAssertionsPassed": 563,
+    "nativeAccessAssertionsPassed": 38,
+    "desktopAssertionsPassed": 168,
+    "desktopWebsiteAndImageAssertionsPassed": 75,
+    "renderedUiGroupsPassed": 13,
+    "websiteIntegrationGroupsPassed": 16,
+    "websiteWidthsPx": [
+      320,
+      390,
+      620,
+      860,
+      1024,
+      1536
+    ],
+    "portalWidthsPx": [
+      320,
+      390,
+      720,
+      1024,
+      1536
+    ],
+    "androidUiWidthsPx": [
+      320,
+      390,
+      560
+    ],
+    "nodeVersion": "v24.19.0",
+    "externalRequestsDuringWebsiteIntegration": 0,
+    "discordCallsAfterSyntheticOwnerSetup": 0,
+    "scope": "Historical original 2.2.0 release, prior to this biography update; not rerun for the content update."
+  },
+  "currentWebsiteEvidence": "qa/about-update.json"
+}

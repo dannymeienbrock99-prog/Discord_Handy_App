@@ -1,0 +1,41 @@
+✔ packaged introduction initializes the exact approved text and byte-exact editable portrait (57.722797ms)
+✔ existing published content, private drafts, uploads and app records survive restart without consulting initial files (26.782263ms)
+✔ removing the portrait from publication blocks its old URL and deleted content is never reimported (42.977585ms)
+✔ unused manifest images are not imported or exposed and a missing template keeps the blank fallback (3.848348ms)
+▶ invalid initial images, unsafe paths and excess limits fail before committing site data
+  ✔ digest mismatch (2.704926ms)
+  ✔ filename traversal (1.444978ms)
+  ✔ image symlink (1.816511ms)
+  ✔ manifest symlink (1.940569ms)
+  ✔ directory symlink (1.347931ms)
+  ✔ oversized bytes (6.029119ms)
+  ✔ too many images (1.737361ms)
+  ✔ missing portrait file (1.280059ms)
+  ✔ disguised markup (1.072303ms)
+  ✔ too many pixels (2.113911ms)
+✔ invalid initial images, unsafe paths and excess limits fail before committing site data (22.782287ms)
+✔ failed initial metadata commit leaves no published references and can resume without changing source bytes (3.205173ms)
+✔ an empty initial template keeps personal sections blank; only owner sees drafts and media management (82.017868ms)
+✔ save is a private versioned draft; publish uses that saved draft with no silent overwrite (26.550912ms)
+✔ uploaded image is private before publish, byte-exact afterward, and filenames never become public (41.156257ms)
+✔ published and draft references block deletion; unpublishing blocks the old media URL immediately (34.904642ms)
+✔ deduplicated uploads count once and use immutable safe storage paths (21.811587ms)
+✔ upload rejects malformed or disguised formats, noncanonical base64, oversized images and pixel bombs (97.150322ms)
+✔ real JPEG and lossy/lossless WebP files are accepted with server-derived dimensions (19.649052ms)
+✔ content validation preserves blank sections but refuses unknown fields, excessive rows and unsafe links (39.628885ms)
+✔ binary and JSON request limits fail before a write and quota limits include all private drafts (34.655694ms)
+✔ site draft, publication, images and audit survive restart; old app data migrate additively (20.083039ms)
+✔ missing or symlinked private images cannot publish or expose another file (18.893277ms)
+✔ failed image metadata commit exposes nothing and startup removes orphaned generated files (8.753154ms)
+✔ expired or replaced owner cannot save, publish, upload or read private previews (22.742285ms)
+✔ owner logout while upload body arrives blocks the write after initial authentication (12.291371ms)
+✔ owner authorization is revalidated inside the same draft or publication commit (9.125307ms)
+✔ cross-origin admin requests and guessed filesystem/static paths cannot reveal drafts or uploads (25.12249ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 627.467725

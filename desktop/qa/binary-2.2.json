@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "assemblyName": "Crazy_Batto-Discord-App-Verwaltung",
+  "version": "2.2.0.0",
+  "targetFramework": ".NETFramework,Version=v4.8",
+  "subsystem": "WindowsGui",
+  "machine": "I386",
+  "corFlags": "ILOnly",
+  "anyCpu": true,
+  "authenticodePresent": false,
+  "embeddedBackgroundUnchanged": true,
+  "backgroundSha256": "99ee1da73144c9729d4be2c7f7f6016db45afe04e53df5647ed65e8e6e77a022",
+  "exeSha256": "86ca9d3b4c63797e5fde9c857c8b0a36a82c1bb2d522e8ab7f53216532561556",
+  "size": 505856
+}

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems><ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable><LangVersion>7.3</LangVersion><Deterministic>true</Deterministic>
+    <AssemblyName>Modstempel.Desktop.Tests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup><Compile Include="../src/Core.cs" /><Compile Include="../src/Models.cs" /><Compile Include="../src/ApiClient.cs" /><Compile Include="../src/SiteModels.cs" /><Compile Include="../src/SitePolicy.cs" /><Compile Include="../src/SiteApiClient.cs" /><Compile Include="../src/ImagePreview.cs" /><Compile Include="Tests.cs" /><Compile Include="SiteTests.cs" /><Compile Include="BinaryInspector.cs" /></ItemGroup>
+  <ItemGroup><PackageReference Include="SkiaSharp" Version="4.153.1" /><PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="4.153.1" /></ItemGroup>
+</Project>

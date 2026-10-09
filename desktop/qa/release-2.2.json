@@ -1,0 +1,69 @@
+{
+  "binary": {
+    "passed": true,
+    "assemblyName": "Crazy_Batto-Discord-App-Verwaltung",
+    "version": "2.2.0.0",
+    "targetFramework": ".NETFramework,Version=v4.8",
+    "subsystem": "WindowsGui",
+    "machine": "I386",
+    "corFlags": "ILOnly",
+    "anyCpu": true,
+    "authenticodePresent": false,
+    "embeddedBackgroundUnchanged": true,
+    "backgroundSha256": "99ee1da73144c9729d4be2c7f7f6016db45afe04e53df5647ed65e8e6e77a022",
+    "exeSha256": "86ca9d3b4c63797e5fde9c857c8b0a36a82c1bb2d522e8ab7f53216532561556",
+    "size": 505856
+  },
+  "coreHttpWebsiteAndImageAssertions": 168,
+  "windowsRuntimeTested": false,
+  "imageDecoderExecutedOn": "Linux, SkiaSharp 4.153.1",
+  "nativeWindowsImports": {
+    "x64": {
+      "machine": "0x8664",
+      "direct": [
+        "ole32.dll",
+        "USER32.dll",
+        "FONTSUB.dll",
+        "KERNEL32.dll"
+      ],
+      "delay": [
+        "d3d12.dll",
+        "D3DCOMPILER_47.dll"
+      ]
+    },
+    "x86": {
+      "machine": "0x14c",
+      "direct": [
+        "ole32.dll",
+        "USER32.dll",
+        "FONTSUB.dll",
+        "KERNEL32.dll"
+      ],
+      "delay": [
+        "d3d12.dll",
+        "D3DCOMPILER_47.dll"
+      ]
+    },
+    "arm64": {
+      "machine": "0xaa64",
+      "direct": [
+        "ole32.dll",
+        "USER32.dll",
+        "FONTSUB.dll",
+        "KERNEL32.dll"
+      ],
+      "delay": [
+        "d3d12.dll",
+        "D3DCOMPILER_47.dll"
+      ]
+    }
+  },
+  "openChecks": [
+    "Windows UI and DPI",
+    "Windows image DLL execution",
+    "DPAPI",
+    "Tray notifications",
+    "Autostart",
+    "Real configured Discord login"
+  ]
+}

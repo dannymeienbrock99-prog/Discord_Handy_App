@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "tests": [
+    "real public HTTP page: empty personal fields stay hidden, original dragon and exact renamed app",
+    "default visible-copy lock has no invented biography, setup, projects or placeholders",
+    "public registration links open actual protected portal and portal brand returns to website",
+    "default site responsive at 320/390/620/860/1024/1536",
+    "PNG/JPEG/WebP owner uploads and image-only saved draft remain private in actual browser/public routes",
+    "image-only publication renders all three exact upload formats with decoded natural dimensions and no invented text",
+    "later draft text and project additions do not replace the published image-only view",
+    "publish exposes referenced exact upload, real app screenshot, components and valid project/social links",
+    "uploaded image enlargement and keyboard-close work without external asset URLs",
+    "filled personal/setup/projects layouts fit 320/390/720/1024/1536 without horizontal overflow",
+    "setup gallery uses uploaded bytes, caption and working large view",
+    "removing published content hides every empty section and immediately closes public uploaded-image URL",
+    "text rendering rejects HTML, arbitrary image URLs and unsafe links; maximum long fields still fit at 320px",
+    "failed content fetch keeps registration usable and actual retry recovers without demo fallback",
+    "reduced-motion preference disables smooth scrolling",
+    "zero browser errors, external asset requests or any Discord calls throughout website integration"
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "unexpectedDiscordCalls": [],
+  "method": "Real local HTTP Service, Store, Site API, PNG/JPEG/WebP uploads/publication and rendered website; existing mock Discord identity fixture only for initial owner setup, then every Discord call throws. No live account, deployment or outbound message.",
+  "fallbackReason": "Browser/IAB has no connection to this local development container, so local Playwright Chromium is used."
+}

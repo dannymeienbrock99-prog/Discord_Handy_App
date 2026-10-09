@@ -1,0 +1,37 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Modstempel, OU=Mobile, O=Modstempel
+Signer #1 certificate SHA-256 digest: c6ba05258739e61cd809479071abd85bd52e6a8a5f667fc1d2642b752bb35da3
+Signer #1 certificate SHA-1 digest: 745c0ab7e2967f98739ce2a3e05fef25596f31ec
+Signer #1 certificate MD5 digest: 1339a680609a3b46a6560b171aa5a2ea
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: b9e46e20b6095c0428176b8a9e931a3e58b9d8c744602e95b037334cc0f1d982
+Signer #1 public key SHA-1 digest: a41995fcaa01d526cef4602c1b221b4abdde1a1e
+Signer #1 public key MD5 digest: 81aa15b78bcb194d84a3ff2586fa1dfc
+
+package: name='app.modstempel.mobile' versionCode='10' versionName='2.2.0' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'
+minSdkVersion:'26'
+targetSdkVersion:'35'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+application-label:'Crazy_Batto Discord App'
+application-icon-160:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-65534:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-65535:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application: label='Crazy_Batto Discord App' icon='res/mipmap-anydpi-v26/ic_launcher.xml'
+launchable-activity: name='app.modstempel.mobile.MainActivity'  label='' icon=''
+feature-group: label=''
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+main
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--'
+densities: '160' '65534' '65535'

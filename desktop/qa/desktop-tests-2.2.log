@@ -1,0 +1,3 @@
+PASS: 75 website/editor/image assertions.
+PASS: 168 desktop core and HTTP contract assertions.
+Compiled production core, API, website state and image decoder under .NET 10. Windows UI, DPAPI, tray and autostart require a real Windows smoke test.

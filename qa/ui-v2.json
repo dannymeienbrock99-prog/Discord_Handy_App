@@ -1,0 +1,27 @@
+{
+  "checks": [
+    "Unconfigured backend blocks login; configured-but-not-ready stays honest. Opening/cancelling/polling the Discord browser flow is not authentication. Only a verified native identity unlocks server selection. No password/webhook fields.",
+    "Server/channel selection uses actual setup. Opening bot installation does not claim readiness. Manager role change requires a concrete role confirmation and displays the saved role.",
+    "Stale poll results stay explicitly marked as saved/outdated. updatedAt labels the result timestamp; pollCheckedAt is only labelled as the last check. Existing counts and unknown values are preserved.",
+    "All five categories prepare and publish their fixed audience. Only Stream and Umfrage contain polls, Stream keeps the three attendance answers. Real raw poll counts render 7 / 0 / unknown, with no fabricated zero.",
+    "The confirmation remains bound to the prepared server/channel even if Core selection changes before submit; the sent operation retains its original channel.",
+    "Image replacement cancellation keeps the preview. Two-message confirmation stays clear at 320/390. A confirmed image plus failed poll offers image opening and poll-only retry using the same operation ID, without another upload or deletion.",
+    "Unknown poll delivery has an explicit poll-only retry warning. Cancelling sends nothing; local completion preserves the confirmed image and never calls Discord.",
+    "The real event composer rejects an end before its start. Confirmation includes local timezone, server and location/link. The scheduled_event operation has no channel/category/ping, and confirmed server events open by verified event ID.",
+    "Reloading the server setup invalidates the UI event-list load marker. An empty cleared cache is not presented as a confirmed empty Discord server; only an actual empty response shows no events.",
+    "A storage failure preserves the title, poll and chosen image, keeps the confirmation reviewable, and performs zero native operation sends.",
+    "Migration preserves the old accent, archived image and read-only history. An active v1 duty can pause/resume/finish locally while logged out, with zero operation sends and zero image deletions.",
+    "A non-manager cannot edit the configured role. Category-specific channel permissions and missing event permissions disable the matching action with the actual reason; role mention never promises private visibility.",
+    "Browser preview has no fake login/upload/send success. All five views, long target names and dialogs remain within the viewport at 320/390 px, with reachable navigation and action buttons."
+  ],
+  "errors": [],
+  "external": [],
+  "screenshots": [
+    "modstempel-2.0.0-login-390.png",
+    "modstempel-2.0.0-poll-stale-390.png",
+    "modstempel-2.0.0-post-confirm-390.png",
+    "modstempel-2.0.0-partial-320.png",
+    "modstempel-2.0.0-partial-390.png",
+    "modstempel-2.0.0-event-confirm-390.png"
+  ]
+}

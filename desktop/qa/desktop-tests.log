@@ -1,0 +1,2 @@
+PASS: 93 desktop core and HTTP contract assertions.
+Compiled production Core.cs, Models.cs and ApiClient.cs under .NET 10. Windows UI, DPAPI, tray and autostart require a real Windows smoke test.
