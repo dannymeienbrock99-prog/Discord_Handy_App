@@ -12,10 +12,14 @@
     discord: 'Crazy_Batto Discord App – Crazy_Batto',
     registration: 'Registrierung & Zugang – Crazy_Batto Discord App'
   };
+  const startPage = Object.prototype.hasOwnProperty.call(titles, root.dataset.startPage)
+    ? root.dataset.startPage : 'home';
 
   function readRoute() {
+    const rawRoute = window.location.hash.slice(1);
+    if (!rawRoute) return { name: startPage, anchor: '' };
     let route;
-    try { route = decodeURIComponent(window.location.hash.slice(1)); }
+    try { route = decodeURIComponent(rawRoute); }
     catch (_) { route = ''; }
     const [name, anchor = ''] = route.split('/', 2);
     return Object.prototype.hasOwnProperty.call(titles, name)

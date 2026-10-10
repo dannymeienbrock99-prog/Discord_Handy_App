@@ -9,8 +9,8 @@
     },
     {
       "path": "START_HIER.md",
-      "bytes": 4095,
-      "sha256": "fca299644fa25b1ffcfdf4c53e8a9cfa0a9d8d99dc551f6c4825e3773938f107"
+      "bytes": 4454,
+      "sha256": "d55fdd390c8379228b57698219ec63a7c817843c23ac5d91acd1fb379be7ccad"
     },
     {
       "path": "UEBERGABE_NEUER_CHAT.md",
@@ -229,8 +229,8 @@
     },
     {
       "path": "quellcode/offline/generate_offline_html.py",
-      "bytes": 12468,
-      "sha256": "ea8ac209bb01c42b745799ceb679dcc00e0c70b47eebe868c6faad55ac1c5d7e"
+      "bytes": 12883,
+      "sha256": "8ba8ab813dd3c0c11fd07f70c5f286cbc7922e9fdb1aeab4ecf858f5489f87cc"
     },
     {
       "path": "quellcode/offline/offline-bootstrap.js",
@@ -239,8 +239,8 @@
     },
     {
       "path": "quellcode/offline/offline-router.js",
-      "bytes": 2145,
-      "sha256": "727979368f3e5df0e4af2149b3d8c832613d392b97f51cfa8604ba8ca4bce2aa"
+      "bytes": 2363,
+      "sha256": "2e2916e426fc9a665361745db7da90b07871aaae394562299f195e183af5f2ad"
     },
     {
       "path": "quellcode/old-history.html",

@@ -3,7 +3,7 @@
 
 This script reads the master only. It does not run its build or encode/edit images.
 Usage: python3 generate_offline_html.py [--master PATH] [--output PATH]
-                                      [--report-dir PATH]
+                                      [--report-dir PATH] [--start-page PAGE]
 
 The portable copy lives in quellcode/offline: its default master is ../.. and its
 default output is Crazy_Batto-Offline.html inside that project. Verification
@@ -70,9 +70,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--master', type=Path, default=DEFAULT_ROOT)
     parser.add_argument('--output', type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument('--start-page', choices=tuple(PAGE_NAMES), default='home',
+                        help='Page shown when the offline file opens without a hash link (default: home).')
     parser.add_argument('--report-dir', type=Path, default=DEFAULT_REPORT_DIR,
                         help='Optional directory for verification JSON and the DOM fixture; outside quellcode.')
     args = parser.parse_args()
+    start_page = args.start_page
     root = args.master.resolve()
     source = root / 'quellcode'
     site = root / 'webseite'
@@ -110,11 +113,14 @@ def main():
     for name, content in pages.items():
         assert content in (site / PAGE_NAMES[name]).read_bytes().decode('utf-8'), name
 
-    contents = '\n'.join(content if name == 'home' else content.replace('data-page="' + name + '"', 'data-page="' + name + '" hidden', 1) for name, content in pages.items())
+    contents = '\n'.join(content if name == start_page else content.replace('data-page="' + name + '"', 'data-page="' + name + '" hidden', 1) for name, content in pages.items())
+    banner = read('banner.html')
+    if start_page != 'home':
+        banner = banner.replace('data-home-banner', 'data-home-banner hidden', 1)
     layout = (read('layout.html')
               .replace('__PREVIEW__', 'false')
-              .replace('__START_PAGE__', 'home')
-              .replace('__BANNER__', read('banner.html'))
+              .replace('__START_PAGE__', start_page)
+              .replace('__BANNER__', banner)
               .replace('__CONTENT__', contents)
               .replace('__ASSET_DATA__', ''))
     layout = layout.replace('data-preview="false"', 'data-preview="false" data-offline="true"', 1)
@@ -123,7 +129,7 @@ def main():
         layout = re.sub(r'\bdata-portal-mode="[^"]*"', 'data-portal-mode="offline"', layout, count=1)
     else:
         layout = layout.replace('id="cb-website"', 'id="cb-website" data-portal-mode="offline"', 1)
-    layout = layout.replace('data-nav="home"', 'data-nav="home" aria-current="page"', 1)
+    layout = layout.replace('data-nav="' + start_page + '"', 'data-nav="' + start_page + '" aria-current="page"', 1)
     html = (read('document.html')
             .replace('__TITLE__', 'Crazy_Batto – Hardware, Gaming & Team TABH')
             .replace('__DESCRIPTION__', 'Crazy_Batto: Content-Creator für Hardware und Gaming, Inhaber und Gründer von Team TABH. Meine Geschichte, PC-Setups und eigenen Softwareprojekte.')
@@ -214,7 +220,7 @@ def main():
 
     report = {
         'output': str(output), 'bytes': len(data), 'sha256': digest(data),
-        'pages': list(PAGE_NAMES.values()), 'start_page': 'home',
+        'pages': list(PAGE_NAMES.values()), 'start_page': start_page,
         'portal_mode': 'offline',
         'original_page_bodies_match_handover': True,
         'asset_count': len(assets), 'asset_bytes': sum(a['bytes'] for a in asset_report),

@@ -66,6 +66,15 @@ Nach dem normalen Build kann die einzelne Offline-Datei erzeugt werden:
 python3 quellcode/offline/generate_offline_html.py --output Crazy_Batto-Offline.html
 ```
 
+Optional lässt sich die Offline-Datei direkt auf „Mein Gaming-Setup“ öffnen:
+
+```bash
+python3 quellcode/offline/generate_offline_html.py --output Crazy_Batto-Gaming-Offline.html --start-page gaming
+```
+
+Ohne `--start-page` beginnt die Datei weiterhin auf der Startseite. Die übrigen
+Seiten bleiben in beiden Varianten über die Navigation erreichbar.
+
 Die Serverfassung mit echten Portalaufrufen wird ausdrücklich exportiert:
 
 ```bash
