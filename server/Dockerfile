@@ -4,6 +4,9 @@ WORKDIR /app
 COPY --chown=node:node package.json ./
 COPY --chown=node:node src ./src
 COPY --chown=node:node public ./public
+COPY --chown=node:node scripts ./scripts
+COPY --chown=node:node media-parts ./media-parts
+RUN node scripts/prepare-website.mjs
 COPY --chown=node:node site-default.json ./site-default.json
 COPY --chown=node:node site-default-images ./site-default-images
 RUN apt-get update && apt-get install -y --no-install-recommends util-linux && rm -rf /var/lib/apt/lists/* \

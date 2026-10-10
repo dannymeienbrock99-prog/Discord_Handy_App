@@ -1,0 +1,21 @@
+{
+  "formatVersion": 1,
+  "filename": "header.gif",
+  "size": 15656002,
+  "contentSha256": "2bc82ecdba42ece31b98d7dff029c5a51ffe4e317a007297907951889b2dfe2e",
+  "gitBlobSha": "4663e0169a119ebaa8d59be7ae70874f974df04a",
+  "parts": [
+    {
+      "filename": "header.gif.001",
+      "size": 8000000,
+      "sha256": "338925759b402ffbddbf00a636d0ed87fbb35c4e665ba1bedb2e0af10689e773",
+      "gitBlobSha": "956691c31d86e5c0af688e1717f256a96e497ed5"
+    },
+    {
+      "filename": "header.gif.002",
+      "size": 7656002,
+      "sha256": "2e3a0e356699b576b5b6425f78c08299403e48a211226e05bd27286b497b7a4a",
+      "gitBlobSha": "d603224541c75a4009a29813355e6388425cc986"
+    }
+  ]
+}

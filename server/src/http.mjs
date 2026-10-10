@@ -10,6 +10,28 @@ import { SITE_MAX_UPLOAD_REQUEST_BYTES } from './site.mjs';
 const publicDir = fileURLToPath(new URL('../public/', import.meta.url));
 const assets = new Map([['portal.css', 'text/css; charset=utf-8'], ['portal.js', 'text/javascript; charset=utf-8'], ['icons.svg', 'image/svg+xml'], ['background-batto.jpeg', 'image/jpeg']]);
 const siteAssets = new Map([['site.css', 'text/css; charset=utf-8'], ['site.js', 'text/javascript; charset=utf-8'], ['icons.svg', 'image/svg+xml'], ['brand-dragon.jpeg', 'image/jpeg'], ['discord-app.png', 'image/png']]);
+const showcasePages = new Map([
+  ['/', 'index.html'], ['/index.html', 'index.html'],
+  ['/altes-setup.html', 'altes-setup.html'], ['/gaming-setup.html', 'gaming-setup.html'],
+  ['/software.html', 'software.html'], ['/discord-app.html', 'discord-app.html'],
+  ['/registrierung.html', 'registrierung.html'], ['/portal', 'registrierung.html'], ['/portal/', 'registrierung.html']
+]);
+// Only the reviewed website files receive public routes. Source material,
+// private releases and owner uploads are never exposed by this static handler.
+const showcaseAssets = new Map([
+  ['site.css', 'text/css; charset=utf-8'], ['site.js', 'text/javascript; charset=utf-8'],
+  ['logo.jpeg', 'image/jpeg'], ['portrait.png', 'image/png'], ['header.gif', 'image/gif'],
+  ['header-poster.webp', 'image/webp'], ['marble-gold.webp', 'image/webp'],
+  ['setup-2022.jpeg', 'image/jpeg'], ['setup-umbau.jpeg', 'image/jpeg'], ['kraken-g12.png', 'image/png'],
+  ['gaming-1.jpg', 'image/jpeg'], ['gaming-2.jpg', 'image/jpeg'], ['gaming-3.jpg', 'image/jpeg'],
+  ['gaming-4.jpg', 'image/jpeg'], ['gaming-5.jpg', 'image/jpeg'], ['gaming-7.jpeg', 'image/jpeg'],
+  ['gaming-8.jpeg', 'image/jpeg'], ['gaming-9.jpeg', 'image/jpeg'],
+  ['software-start.jpg', 'image/jpeg'], ['software-multi-chat.jpg', 'image/jpeg'],
+  ['software-rgb.jpg', 'image/jpeg'], ['software-luefterkurven.jpg', 'image/jpeg'],
+  ['software-touch-deck.jpg', 'image/jpeg'], ['software-strimer.jpg', 'image/jpeg'],
+  ['software-widgets.jpg', 'image/jpeg'], ['software-uebersicht.jpg', 'image/jpeg'],
+  ['discord-app.png', 'image/png']
+]);
 const portalCsp = "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' https://cdn.discordapp.com data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'";
 const siteCsp = "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'";
 function readCookie(header, name) {
@@ -72,7 +94,22 @@ export function createHttpServer(service, { rateLimits = true } = {}) {
       if (request.method === 'GET' && pathname === '/health') return send(service.health());
       const forwarded = service.config.trustProxy && typeof request.headers['x-forwarded-for'] === 'string' ? request.headers['x-forwarded-for'].split(',').at(-1).trim() : '';
       const remote = forwarded || request.socket.remoteAddress || 'unknown';
-      if (['/', '/site', '/site/'].includes(pathname)) {
+      if (showcasePages.has(pathname)) {
+        assert(['GET', 'HEAD'].includes(request.method), 'Diese Website unterstützt nur das Öffnen.', 'validation', 405);
+        limited('showcase:' + remote, 360, 60_000);
+        const filename = showcasePages.get(pathname);
+        response.setHeader('Content-Security-Policy', filename === 'registrierung.html' ? portalCsp : siteCsp);
+        return streamFile(path.join(publicDir, 'showcase', filename), 'text/html; charset=utf-8');
+      }
+      if (pathname.startsWith('/assets/')) {
+        assert(['GET', 'HEAD'].includes(request.method), 'Diese Datei unterstützt nur das Öffnen.', 'validation', 405);
+        limited('showcase:' + remote, 360, 60_000);
+        const name = pathname.slice('/assets/'.length);
+        assert(showcaseAssets.has(name), 'Diese Datei ist nicht vorhanden.', 'not_found', 404);
+        response.setHeader('Content-Security-Policy', siteCsp);
+        return streamFile(path.join(publicDir, 'showcase', 'assets', name), showcaseAssets.get(name));
+      }
+      if (['/site', '/site/'].includes(pathname)) {
         assert(['GET', 'HEAD'].includes(request.method), 'Diese Website unterstützt nur das Öffnen.', 'validation', 405);
         response.setHeader('Content-Security-Policy', siteCsp);
         return streamFile(path.join(publicDir, 'site/index.html'), 'text/html; charset=utf-8');
@@ -93,11 +130,6 @@ export function createHttpServer(service, { rateLimits = true } = {}) {
           return streamFile(file.filename, file.mimeType);
         }
         throw new AppError('not_found', 'Diese Website-Adresse ist nicht vorhanden.', 404);
-      }
-      if (['/portal', '/portal/'].includes(pathname)) {
-        assert(['GET', 'HEAD'].includes(request.method), 'Diese Website unterstützt nur das Öffnen.', 'validation', 405);
-        response.setHeader('Content-Security-Policy', portalCsp);
-        return streamFile(path.join(publicDir, 'index.html'), 'text/html; charset=utf-8');
       }
       if (pathname.startsWith('/portal/assets/')) {
         assert(['GET', 'HEAD'].includes(request.method), 'Diese Datei unterstützt nur das Öffnen.', 'validation', 405);

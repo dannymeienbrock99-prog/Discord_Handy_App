@@ -36,3 +36,9 @@ signing-password.txt
 *.zip
 server/releases/*
 !server/releases/README.md
+
+# Reconstructed byte-for-byte from server/media-parts/manifest.json.
+/server/public/showcase/assets/header.gif
+/website/webseite/assets/header.gif
+/website/Crazy_Batto-Offline.html
+__pycache__/

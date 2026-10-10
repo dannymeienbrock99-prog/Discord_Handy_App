@@ -1,0 +1,104 @@
+CRAZY_BATTO – WEBSEITENENTWURF
+Schwarzer Marmor · Anthrazit · Gold
+
+ÖFFNEN
+Das ZIP vollständig entpacken und index.html im Browser öffnen.
+Alle sechs HTML-Dateien und der Ordner assets müssen zusammenbleiben.
+Die Webseite funktioniert lokal; ein Server oder eine Installation ist nicht nötig.
+
+SECHS SEITEN
+index.html
+Startseite mit animiertem Header, Drachenlogo, Porträt, Kurzvorstellung,
+»Über mich«, deiner ASUS-ROG-Sammlung und Verweisen auf die Setup- und Software-Seiten.
+
+altes-setup.html
+»Mein altes Setup – So habe ich angefangen«: die Setup-Geschichte ab 2022,
+drei Originalfotos, erste Komponenten und die Umbauten an CPU-/GPU-Kühlung.
+
+gaming-setup.html
+»Mein Gaming-Setup«: dein neues System, eine Galerie mit acht auswählbaren
+Originalfotos und die gesamte von dir genannte Ausstattung.
+
+software.html
+»Software – Batto OBS Tool«: Projekt 01 mit kurzer persönlicher Vorstellung,
+ausgewählten Funktionen und acht Original-Screenshots. Die Startoberfläche
+steht im Kopfbereich; sieben weitere Ansichten lassen sich in der Galerie
+auswählen und in voller Größe öffnen.
+
+Die CNG-Anbindung ist als ausstehend gekennzeichnet. Die Seite beschreibt
+RGB-Vorschau, Lüfterkurvenentwürfe, Jarvis, Touch Deck und die anpassbare
+Oberfläche. Im gezeigten Stand übernimmt iCUE die Lüftersteuerung; die
+Strimer-Vorschau ist als virtuelle Demo ohne Hardware-Ausgabe beschriftet.
+Die Seite nennt nur ausgewählte Funktionen und weist darauf hin, dass du
+das Programm noch nicht freigegeben hast. Es gibt keinen Software-Download.
+
+DISCORD-APP UND REGISTRIERUNG
+
+discord-app.html
+Crazy_Batto Discord App: Modstempel, Beiträge mit Bildern, Stream-Abfragen,
+Umfragen, Server-/Kanalauswahl und Discord-Events. Mit der vorhandenen
+App-Abbildung und dem Ablauf für deinen persönlich freigegebenen Zugang.
+
+registrierung.html
+Discord-Anmeldung, Zugangsanfrage mit optionaler Nachricht und Freigabestatus.
+Die lokale Version ist ausdrücklich eine Offline-Vorschau. Über die Auswahl
+kannst du Anmeldung, Anfrage, Wartestatus, Freigabe, Ablehnung und Sperre ansehen.
+Es werden offline keine Anträge gesendet und keine APK-Downloads freigeschaltet.
+Die richtige Registrierung wird über den eingerichteten Server betrieben.
+
+Die Einleitung unter Über mich verwendet die gewünschte Formulierung:
+„Am 2022 habe ich wieder angefangen, mich mit PCs zu beschäftigen.“
+
+GESTALTUNG
+Dunkler Marmor mit natürlichen Goldadern, anthrazitfarbene Inhaltsflächen,
+helle Schrift und warme goldene Akzente.
+Logo und Navigation auf allen vier Seiten.
+Responsive Gestaltung für kleine und große Bildschirme.
+Der Header auf der Startseite ist ein echtes GIF in Endlosschleife.
+»Animation pausieren« blendet ein Standbild ein; »Animation abspielen«
+zeigt wieder die Animation. Eine Einstellung für reduzierte Bewegung
+wird beim Laden berücksichtigt.
+
+MEIN GAMING-SETUP – INHALTE
+PC-Komponenten
+Wasserkühlung
+Lüfter, Steuerung und RGB-Zubehör
+Monitore
+Tastaturen
+Mäuse
+Handheld und portables Display
+Controller
+Mikrofon
+
+Sämtliche Angaben stammen aus deiner Beschreibung. Nicht genannte
+Modellvarianten, Monitorwerte oder weitere Komponenten wurden nicht ergänzt.
+Die unterschiedlichen Bezeichnungen O11 Dynamic beim Gehäuse und
+O11 Dynamic EVO RGB beim SK-Crosscool III sind wie angegeben erhalten.
+
+FOTOS
+Dein Logo, dein Porträt sowie sämtliche alten und neuen Setup-Fotos liegen
+unverändert im Ordner assets. Die Galerie zeigt die Fotos vollständig.
+Die Dateinamen gaming-1 bis gaming-5 und gaming-7 bis gaming-9 entsprechen
+deinen Uploads; ein Foto mit der Nummer 6 wurde nicht mitgeliefert.
+
+SOFTWARE-SCREENSHOTS
+Die acht Programmbilder liegen unverändert in assets/software-*.jpg.
+1000157322: Startoberfläche; 1000157321: Multi-Chat;
+1000157318: RGB-Vorschau; 1000157323: Lüfterkurven;
+1000157324: Touch Deck / Jarvis; 1000157319: Strimer-Demo;
+1000157325: Widget-Fenster; 1000157320: Arbeitsoberfläche.
+1000157317 zeigt die bestehende Webseite und gehört nicht zur Softwaregalerie.
+
+BEARBEITEN
+Texte: in den Vorlagen unter quellcode/ ändern und anschließend bauen.
+Farben und Gestaltung: assets/site.css.
+Animationsschalter und Fotogalerie: assets/site.js.
+Bilder und Header: im Ordner assets.
+Marmor-Hintergrund: assets/marble-gold.webp.
+
+WEITERE INHALTE
+Teammitglieder, Kontakt- und Social-Media-Links sowie Impressum und
+Datenschutz sind noch nicht als vollständige Inhalte ausgearbeitet.
+Die entsprechende Struktur ist auf der Startseite vorbereitet.
+
+Der separate GIF-Export in voller Auflösung bleibt zusätzlich verfügbar.

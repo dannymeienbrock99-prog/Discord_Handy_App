@@ -175,3 +175,14 @@ Der frühere `core.js` bleibt für reine Zeit-/Bildhilfsfunktionen und Regressio
 Die JavaScript- und Backend-Tests verwenden Ersatzschnittstellen. Ein bestandener Test ist keine echte Anmeldung bei Discord. Der APK-Bau prüft Kompilierung und Paketstruktur; ein Test auf einem echten Android-Gerät und ein Live-Durchlauf mit dem tatsächlich eingerichteten Discord-Bot sind getrennte Prüfungen. `PRUEFUNG-2.2.md` dokumentiert das ursprüngliche Paket. Für das Website-Inhaltsupdate gilt der gesonderte Prüfstand in [WEBSITE-PORTRAET.md](WEBSITE-PORTRAET.md); die früheren APK-, Windows- und Browserprüfungen wurden dafür nicht erneut ausgeführt.
 
 Die ausgelieferte Update-APK wird mit dem bisherigen Schlüssel signiert. Private Signierschlüssel, Passwörter, OAuth-Secrets, Bot-Tokens, echte `.env`-Dateien und Laufzeitdaten sind nicht Teil des Quellcodepakets. Wer den Quellcode mit einem eigenen Schlüssel baut, kann damit eine unter dem ursprünglichen Schlüssel installierte App nicht direkt aktualisieren.
+
+## Webseite mit Discord-App und Registrierung (10. Oktober 2026)
+
+Die neue Sechs-Seiten-Webseite liegt einschließlich bearbeitbarer Quellen unter
+[`website/`](website/README.md). Sie ergänzt die Marmor-Gold-Vorstellung um die
+Crazy_Batto Discord App und den bisherigen persönlichen Registrierungsablauf.
+Die produktive Fassung ist in `server/public/showcase` enthalten; `/portal` nutzt
+die bestehenden Sitzungs-, Freigabe- und Downloadprüfungen. Der bisherige
+CMS-Bereich bleibt unter `/site` verfügbar. Details zum Bauen und Offline-Ansehen
+stehen in der Website-Anleitung. Das Batto OBS Tool bleibt eine begrenzte,
+nicht freigegebene Vorstellung ohne Installer oder Release-Termin.

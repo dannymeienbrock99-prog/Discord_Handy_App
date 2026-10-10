@@ -1,0 +1,100 @@
+#cb-website .cb-discord-intro {
+  display: grid;
+  grid-template-columns: minmax(0,1.35fr) minmax(0,.8fr);
+  align-items: center;
+  gap: 40px;
+}
+#cb-website .cb-discord-tagline {
+  color: var(--cb-gold);
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+#cb-website .cb-discord-screenshot {
+  justify-self: center;
+  width: 100%;
+  max-width: 300px;
+  min-width: 0;
+  padding: 7px;
+  border: 1px solid #806332;
+  border-radius: 13px;
+  background: var(--cb-paper);
+}
+#cb-website .cb-discord-screenshot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 7px;
+}
+#cb-website .cb-discord-screenshot figcaption {
+  padding: 10px 5px 4px;
+  color: var(--cb-muted);
+}
+#cb-website .cb-mention-table {
+  width: 100%;
+  max-width: 860px;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.65;
+}
+#cb-website .cb-mention-table th,
+#cb-website .cb-mention-table td {
+  padding: 13px 18px 13px 0;
+  border-bottom: 1px solid var(--cb-line);
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+#cb-website .cb-mention-table th:last-child,
+#cb-website .cb-mention-table td:last-child {
+  padding-right: 0;
+}
+#cb-website .cb-mention-table thead th {
+  color: var(--cb-gold);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  border-bottom-color: #806332;
+}
+#cb-website .cb-mention-table tbody th {
+  width: 35%;
+  color: var(--cb-ink);
+  font-weight: 600;
+}
+#cb-website .cb-mention-table td {
+  color: var(--cb-muted);
+}
+#cb-website .cb-discord-table-note {
+  max-width: 80ch;
+  margin-top: 18px;
+  font-size: 12px;
+  line-height: 1.75;
+}
+#cb-website .cb-discord-access h2 {
+  margin-bottom: 20px;
+}
+@media (max-width: 800px) {
+  #cb-website .cb-discord-intro {
+    grid-template-columns: minmax(0,1fr);
+    gap: 30px;
+  }
+}
+@media (max-width: 580px) {
+  #cb-website .cb-discord-screenshot {
+    max-width: 270px;
+  }
+  #cb-website .cb-mention-table {
+    font-size: 13px;
+  }
+  #cb-website .cb-mention-table th,
+  #cb-website .cb-mention-table td {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  #cb-website .cb-mention-table tbody th {
+    width: 40%;
+  }
+}

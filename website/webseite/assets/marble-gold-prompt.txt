@@ -1,0 +1,6 @@
+MARBLE BACKGROUND
+Generated using built-in image generation.
+Website asset: assets/marble-gold.webp
+
+Prompt:
+Use case: photorealistic-natural. Asset type: a seamless raster background texture for a premium dark gaming creator website. Generate one square, high-resolution, flat orthographic surface texture of polished BLACK MARBLE with restrained metallic GOLD mineral veins. The surface must be overwhelmingly black and very dark charcoal, with subtle organic smoky stone variation and a few elegant irregular branching gold veins of varied thickness crossing naturally through the stone. Gold should be warm champagne/brass, softly reflective, with realistic mineral detail; no orange glow. Some very fine dark gray secondary veins. Even diffuse lighting, minimal reflections, sophisticated understated material, no 3D objects or scene, no borders. Uniform texture across the whole image, seamlessly tileable in both directions, no vignette. Suitable as a full website background behind dark content panels. Avoid white or cream marble, large pale regions, glitter, bright lightning, graphic circuit patterns, carbon fiber, text, letters, logos, people, and watermarks. Target 2048 by 2048 pixels if supported.

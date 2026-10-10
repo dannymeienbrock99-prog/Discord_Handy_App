@@ -113,7 +113,9 @@ Die Kanalauswahl unterstützt Text- und Ankündigungskanäle. Unsichtbare Kanäl
 
 ## 5. Öffentliche Webseite und eigene Bilder
 
-Unter `/` erscheint die öffentliche Startseite. `GET /site/api/content` liefert ausschließlich die zuletzt veröffentlichte Fassung. Die Vorlage vom **09.10.2026** enthält unter **Über mich** das Originalporträt `ich.jpeg` und die vier gelieferten Zeilen zu Crazy_Batto, Team TABH, Alter und Content-Themen. Setup, andere Apps und Social Links bleiben frei.
+Unter `/` und `/index.html` erscheint die neue Marmor-Gold-Webseite aus `public/showcase`: Startseite, altes Setup, Gaming-Setup, Batto OBS Tool, Discord-App und Registrierung. Die sechs HTML-Seiten und ihre fest zugelassenen Dateien unter `/assets/` werden ausdrücklich geroutet; Arbeitsmaterial und APK-Dateien gehören nicht in diesen öffentlichen Ordner. `/portal`, `/portal/` und `/registrierung.html` zeigen dieselbe neue Registrierungsansicht. Discord-Anmeldung, persönliche Freigabe und privater Download verwenden weiterhin die bestehenden `/portal/`-APIs; die OAuth-Rückleitung führt nach `/portal`.
+
+Die vorhandene, mit der PC-Verwaltung bearbeitbare CMS-Ansicht bleibt unter `/site` und `/site/` erreichbar. Sie ist von der neuen sechsseitigen Vorstellung getrennt: Änderungen über die bisherigen `/v2/admin/site`-Routen verändern die CMS-Ansicht, nicht die statischen Showcase-Vorlagen. `GET /site/api/content` liefert weiterhin ausschließlich die zuletzt veröffentlichte CMS-Fassung. Die CMS-Vorlage vom **09.10.2026** enthält unter **Über mich** das Originalporträt `ich.jpeg` und die vier gelieferten Zeilen zu Crazy_Batto, Team TABH, Alter und Content-Themen. Setup, andere Apps und Social Links bleiben dort frei.
 
 Beim erstmaligen Anlegen der Website übernimmt der Server `site-default.json` und das referenzierte Bild aus `site-default-images`. Das Porträt wird als normales verwaltetes Bild gespeichert und zählt zum Bildspeicher. Die Quelldateien haben keine öffentliche Webadresse. Vorhandene Website-Daten und Entwürfe werden bei einem Update nicht ersetzt; dort setzt der Betreiber die neuen Inhalte über die PC-Verwaltung und veröffentlicht sie selbst. Das Website-Inhaltsupdate ändert keine Versionsnummer: App, Server und Windows-Verwaltung bleiben bei **2.2.0**; eine neue APK ist nicht nötig.
 
@@ -178,3 +180,14 @@ Der Node-Kern und lokale HTTP-Integration wurden hier ausgeführt. Die Compose-D
 - [Caddy Automatic HTTPS](https://caddyserver.com/docs/automatic-https)
 
 Dokumentationsstand: 9. Oktober 2026.
+
+### Originale Header-Animation im Git-Backup
+
+Das unveränderte Header-GIF liegt im Repository in zwei geprüften Binärteilen
+unter `server/media-parts`. Das Medienmanifest enthält Größen und SHA-256-Werte.
+`npm start` und `npm test` setzen es bei Bedarf automatisch wieder zusammen;
+der Docker-Build führt denselben Schritt vor dem schreibgeschützten Betrieb aus.
+Bei einem direkten Start mit `node src/index.mjs` vorher einmal
+`npm run prepare:website` ausführen. Es werden keine Medien aus dem Internet geladen.
+Der Website-Build `python3 website/quellcode/build.py` stellt auch die lokale
+Webseitenkopie wieder her, falls das GIF nach einem Checkout noch fehlt.

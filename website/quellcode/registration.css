@@ -1,0 +1,89 @@
+#cb-website .cb-access-layout { display: grid; grid-template-columns: minmax(0,1.1fr) minmax(0,.9fr); gap: 38px; align-items: start; }
+#cb-website .cb-access-card { min-width: 0; padding: clamp(23px,3.5vw,34px); border: 1px solid #806332; border-radius: 12px; background: linear-gradient(145deg,#1c1d21,#111215); box-shadow: 0 12px 30px rgba(0,0,0,.22); }
+#cb-website .cb-access-card:focus-visible { outline: 3px solid var(--cb-gold); outline-offset: 4px; }
+#cb-website .cb-access-view h2 { margin-bottom: 16px; }
+#cb-website .cb-access-intro { font-size: 14px; line-height: 1.85; margin-bottom: 25px; }
+#cb-website .cb-access-symbol { display: inline-grid; place-items: center; width: 44px; height: 44px; margin-bottom: 21px; border: 1px solid #8b6c36; border-radius: 11px; color: var(--cb-gold); background: #2b2418; font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; }
+#cb-website .cb-access-card .cb-button { min-height: 46px; max-width: 100%; white-space: normal; text-align: left; cursor: pointer; }
+#cb-website .cb-access-card button:disabled, #cb-website .cb-access-card a[aria-disabled="true"] { opacity: .5; cursor: not-allowed; box-shadow: none; }
+#cb-website .cb-access-card button:disabled:hover, #cb-website .cb-access-card a[aria-disabled="true"]:hover { background: #191a1c; }
+#cb-website .cb-access-card .cb-button-gold:disabled:hover, #cb-website .cb-access-card .cb-button-gold[aria-disabled="true"]:hover { background: linear-gradient(110deg,#b98f44,#e4c680 55%,#be9650); }
+#cb-website .cb-field-help { font-size: 12px; line-height: 1.7; color: var(--cb-muted); }
+#cb-website .cb-access-card .cb-field-help { margin: 13px 0 20px; }
+#cb-website .cb-access-card .cb-field-help:last-child { margin-bottom: 0; }
+#cb-website .cb-account-row { display: flex; align-items: center; gap: 12px; padding: 15px; margin: 21px 0 25px; background: #111215; border: 1px solid #484030; border-radius: 8px; }
+#cb-website .cb-account-icon { display: inline-grid; place-items: center; width: 37px; height: 37px; flex: 0 0 37px; border-radius: 50%; color: var(--cb-gold); background: #2b2418; font-size: 11px; font-weight: 650; letter-spacing: .04em; }
+#cb-website .cb-account-row > div { min-width: 0; }
+#cb-website .cb-account-row strong, #cb-website .cb-account-row [data-account-handle] { display: block; overflow-wrap: anywhere; }
+#cb-website .cb-account-row strong { font-size: 14px; }
+#cb-website .cb-account-row [data-account-handle] { font-size: 12px; color: var(--cb-muted); }
+#cb-website .cb-access-card label { display: block; margin-bottom: 8px; color: var(--cb-ink); font-size: 13px; font-weight: 600; }
+#cb-website .cb-access-card label span { margin-left: 7px; color: var(--cb-muted); font-size: 11px; font-weight: 400; }
+#cb-website .cb-access-card input, #cb-website .cb-access-card textarea { display: block; width: 100%; min-width: 0; border: 1px solid #665332; border-radius: 7px; padding: 12px 14px; background: #0d0e11; color: var(--cb-ink); font: inherit; font-size: 16px; line-height: 1.65; }
+#cb-website .cb-access-card textarea { min-height: 130px; resize: vertical; }
+#cb-website .cb-access-card textarea::placeholder { color: #aaa397; opacity: 1; }
+#cb-website .cb-access-card input:focus-visible, #cb-website .cb-access-card textarea:focus-visible, #cb-website .cb-access-faq summary:focus-visible { outline: 3px solid var(--cb-gold); outline-offset: 3px; }
+#cb-website .cb-portal-text-button { display: inline-flex; min-height: 44px; align-items: center; padding: 7px 0; border: 0; background: transparent; color: var(--cb-gold); text-decoration: underline; text-underline-offset: 4px; font-size: 13px; cursor: pointer; }
+#cb-website #registration-view > .logout-button { margin-top: 15px; }
+#cb-website .cb-access-actions { display: flex; align-items: center; gap: 12px 22px; flex-wrap: wrap; margin-top: 24px; }
+#cb-website .cb-access-badge { display: block; width: fit-content; max-width: 100%; margin: 0 0 18px; border: 1px solid #756039; border-radius: 5px; padding: 5px 9px; background: #2b2418; color: var(--cb-gold); font-size: 11px; line-height: 1.6; }
+#cb-website #status-view[data-access-state="approved"] .cb-access-badge { color: #d7e9cd; border-color: #687e55; background: #232c1c; }
+#cb-website #status-view[data-access-state="rejected"] .cb-access-badge, #cb-website #status-view[data-access-state="revoked"] .cb-access-badge { color: #f0c9bc; border-color: #855349; background: #30201e; }
+#cb-website .cb-access-details { margin: 0; }
+#cb-website .cb-access-details > div { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 5px 15px; padding: 11px 0; border-bottom: 1px solid var(--cb-line); font-size: 12px; }
+#cb-website .cb-access-details dt { color: var(--cb-muted); }
+#cb-website .cb-access-details dd { margin: 0; color: var(--cb-ink); }
+#cb-website .cb-access-note { margin: 20px 0; padding: 15px 17px; border-left: 2px solid var(--cb-gold); background: #211e18; color: var(--cb-muted); font-size: 13px; overflow-wrap: anywhere; }
+#cb-website .cb-access-note h3 { margin-bottom: 8px; font-size: 15px; }
+#cb-website .cb-access-note p { white-space: pre-wrap; }
+#cb-website .cb-access-download { margin-top: 25px; padding-top: 24px; border-top: 1px solid #756039; }
+#cb-website .cb-access-download h3 { font-size: 20px; }
+#cb-website .cb-access-download > label { margin-top: 25px; }
+#cb-website .cb-server-copy { display: flex; gap: 8px; align-items: stretch; }
+#cb-website .cb-server-copy button { border: 1px solid #756039; border-radius: 7px; color: var(--cb-gold); background: #242018; padding: 9px 12px; min-height: 44px; font-size: 12px; cursor: pointer; }
+#cb-website .cb-portal-status { margin-top: 18px; color: var(--cb-muted); font-size: 12px; }
+#cb-website .cb-portal-status:empty { display: none; }
+#cb-website .cb-portal-error { margin-top: 24px; border: 1px solid #855349; border-radius: 7px; padding: 13px 16px; background: #30201e; color: #f0c9bc; font-size: 13px; overflow-wrap: anywhere; }
+#cb-website #retry-button { margin-top: 17px; }
+#cb-website .cb-access-guide { min-width: 0; padding-top: 8px; }
+#cb-website .cb-access-guide h2 { margin-bottom: 28px; }
+#cb-website .cb-access-steps { list-style: none; margin: 0; padding: 0; }
+#cb-website .cb-access-steps li { display: grid; grid-template-columns: 34px minmax(0,1fr); gap: 15px; padding: 0 0 24px; }
+#cb-website .cb-access-steps li + li { border-top: 1px solid var(--cb-line); padding-top: 24px; }
+#cb-website .cb-access-steps li > span { padding-top: 2px; color: var(--cb-gold); font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; }
+#cb-website .cb-access-steps h3 { margin-bottom: 8px; font-size: 17px; }
+#cb-website .cb-access-steps p, #cb-website .cb-access-guide-note { font-size: 13px; line-height: 1.85; }
+#cb-website .cb-access-guide-note { border-left: 2px solid #806332; padding-left: 16px; }
+#cb-website .cb-portal-preview { margin-bottom: 35px; padding: 23px 25px; border: 1px dashed #8a713e; border-radius: 10px; background: #1f1d18; }
+#cb-website .cb-portal-preview h2 { margin: 0 0 12px; font-size: 23px; }
+#cb-website .cb-portal-preview > p:not(.cb-eyebrow) { max-width: 84ch; font-size: 13px; }
+#cb-website .cb-preview-choices { min-width: 0; margin: 22px 0 12px; padding: 0; border: 0; }
+#cb-website .cb-preview-choices legend { margin: 0 0 10px; color: var(--cb-gold); font-size: 12px; font-weight: 600; }
+#cb-website .cb-preview-buttons { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); gap: 8px; }
+#cb-website .cb-preview-buttons button { min-width: 0; min-height: 44px; padding: 9px 10px; border: 1px solid #645332; border-radius: 6px; color: var(--cb-muted); background: #141518; font-size: 12px; cursor: pointer; overflow-wrap: anywhere; }
+#cb-website .cb-preview-buttons button[aria-pressed="true"] { background: #d9b770; color: #171711; border-color: #e4c680; font-weight: 600; }
+#cb-website .cb-preview-buttons button:hover { border-color: var(--cb-gold); }
+#cb-website .cb-access-faq { margin-top: 38px; border-top: 1px solid #665332; }
+#cb-website .cb-access-faq details { border-bottom: 1px solid var(--cb-line); }
+#cb-website .cb-access-faq summary { padding: 19px 2px; color: var(--cb-gold); font-size: 14px; font-weight: 600; cursor: pointer; }
+#cb-website .cb-access-faq details > div { display: grid; gap: 13px; padding: 0 0 23px; max-width: 90ch; }
+#cb-website .cb-access-faq p { font-size: 13px; line-height: 1.85; }
+@media (max-width: 800px) {
+  #cb-website .cb-access-layout { grid-template-columns: minmax(0,1fr); gap: 35px; }
+  #cb-website .cb-access-guide h2 br { display: none; }
+  #cb-website .cb-access-steps { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 22px; }
+  #cb-website .cb-access-steps li, #cb-website .cb-access-steps li + li { border-top: 1px solid var(--cb-line); padding: 20px 0 0; }
+  #cb-website .cb-access-guide-note { margin-top: 24px; }
+  #cb-website .cb-preview-buttons { grid-template-columns: repeat(3,minmax(0,1fr)); }
+}
+@media (max-width: 580px) {
+  #cb-website .cb-access-card { padding: 23px 20px; }
+  #cb-website .cb-portal-preview { padding: 20px; }
+  #cb-website .cb-preview-buttons { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  #cb-website .cb-access-steps { grid-template-columns: minmax(0,1fr); gap: 0; }
+  #cb-website .cb-access-steps li, #cb-website .cb-access-steps li + li { padding: 20px 0; }
+  #cb-website .cb-access-guide-note { margin-top: 0; }
+  #cb-website .cb-access-card .cb-button { width: 100%; }
+  #cb-website .cb-server-copy { flex-wrap: wrap; }
+  #cb-website .cb-server-copy input { flex: 1 1 200px; }
+}

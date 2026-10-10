@@ -6,7 +6,10 @@
   "description": "Crazy_Batto Discord App: Website, eigene Bilder, Betreiberfreigabe und Discord-Funktionen",
   "engines": { "node": ">=24.0.0" },
   "scripts": {
+    "prepare:website": "node scripts/prepare-website.mjs",
+    "prestart": "npm run prepare:website",
     "start": "node --env-file-if-exists=.env src/index.mjs",
+    "pretest": "npm run prepare:website",
     "test": "node --test test/*.test.mjs"
   }
 }
