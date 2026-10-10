@@ -168,7 +168,15 @@ def main():
         data = full_path.read_bytes()
         assets[path] = {'mime': MIMES[full_path.suffix], 'base64': base64.b64encode(data).decode('ascii')}
         asset_report.append({'path': path, 'bytes': len(data), 'sha256': digest(data), 'mime': MIMES[full_path.suffix]})
-    assert len(assets) == 25, len(assets)
+    supplied_assets = {
+        'assets/' + path.name
+        for path in (site / 'assets').iterdir()
+        if path.is_file() and path.suffix.lower() in MIMES
+    }
+    assert set(assets) == supplied_assets, {
+        'unreferenced_images': sorted(supplied_assets - set(assets)),
+        'unexpected_images': sorted(set(assets) - supplied_assets),
+    }
     assert 'assets/header.gif' in assets
     assert 'assets/portrait.png' in assets
     assert 'assets/discord-app.png' in assets

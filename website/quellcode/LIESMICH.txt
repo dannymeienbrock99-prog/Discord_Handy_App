@@ -16,8 +16,8 @@ altes-setup.html
 drei Originalfotos, erste Komponenten und die Umbauten an CPU-/GPU-Kühlung.
 
 gaming-setup.html
-»Mein Gaming-Setup«: dein neues System, eine Galerie mit acht auswählbaren
-Originalfotos und die gesamte von dir genannte Ausstattung.
+»Mein Gaming-Setup«: dein gesamter Gaming-Platz als Titelbild, eine Galerie
+mit elf auswählbaren Originalfotos und die gesamte von dir genannte Ausstattung.
 
 software.html
 »Software – Batto OBS Tool«: Projekt 01 mit kurzer persönlicher Vorstellung,
@@ -80,6 +80,10 @@ Dein Logo, dein Porträt sowie sämtliche alten und neuen Setup-Fotos liegen
 unverändert im Ordner assets. Die Galerie zeigt die Fotos vollständig.
 Die Dateinamen gaming-1 bis gaming-5 und gaming-7 bis gaming-9 entsprechen
 deinen Uploads; ein Foto mit der Nummer 6 wurde nicht mitgeliefert.
+Das Titelbild gaming-setup-gesamt.jpeg zeigt deinen gesamten Gaming-Platz.
+Die weiteren neuen Fotos zeigen den Aufbau mit Radiatoren und Lüftern,
+deine beleuchteten Slotblenden und die Wasserkühlung von vorne.
+Identische Uploads erscheinen jeweils einmal in der Galerie.
 
 SOFTWARE-SCREENSHOTS
 Die acht Programmbilder liegen unverändert in assets/software-*.jpg.

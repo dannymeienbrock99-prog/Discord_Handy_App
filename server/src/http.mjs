@@ -26,6 +26,8 @@ const showcaseAssets = new Map([
   ['gaming-1.jpg', 'image/jpeg'], ['gaming-2.jpg', 'image/jpeg'], ['gaming-3.jpg', 'image/jpeg'],
   ['gaming-4.jpg', 'image/jpeg'], ['gaming-5.jpg', 'image/jpeg'], ['gaming-7.jpeg', 'image/jpeg'],
   ['gaming-8.jpeg', 'image/jpeg'], ['gaming-9.jpeg', 'image/jpeg'],
+  ['gaming-setup-gesamt.jpeg', 'image/jpeg'], ['gaming-aufbau-radiatoren.jpg', 'image/jpeg'],
+  ['gaming-rgb-slotcover.jpeg', 'image/jpeg'], ['gaming-wasserkuehlung-front.jpg', 'image/jpeg'],
   ['software-start.jpg', 'image/jpeg'], ['software-multi-chat.jpg', 'image/jpeg'],
   ['software-rgb.jpg', 'image/jpeg'], ['software-luefterkurven.jpg', 'image/jpeg'],
   ['software-touch-deck.jpg', 'image/jpeg'], ['software-strimer.jpg', 'image/jpeg'],

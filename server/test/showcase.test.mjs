@@ -69,7 +69,7 @@ test('every packaged website image and script has an explicit public asset route
   const mimeTypes = { '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.webp': 'image/webp', '.gif': 'image/gif' };
   const directory = path.join(showcaseDir, 'assets');
   const files = fs.readdirSync(directory).filter(name => Object.hasOwn(mimeTypes, path.extname(name)));
-  assert.equal(files.length, 27, '25 supplied images/animations and the two website code files');
+  assert.equal(files.length, 31, '29 supplied images/animations and the two website code files');
   for (const name of files) {
     const response = await fetch(origin + '/assets/' + name);
     assert.equal(response.status, 200, name); strictCsp(response);

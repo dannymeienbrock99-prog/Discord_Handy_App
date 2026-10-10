@@ -1,0 +1,501 @@
+{
+  "project": "Crazy_Batto-Webseite",
+  "stand": "2026-10-10",
+  "files": [
+    {
+      "path": "STARTTEXT_NEUER_CHAT.txt",
+      "bytes": 1303,
+      "sha256": "2e9da18c003f85beb030a0123ab662b7063ad25b4ca23c510fd2bd33adc3b77e"
+    },
+    {
+      "path": "START_HIER.md",
+      "bytes": 4095,
+      "sha256": "fca299644fa25b1ffcfdf4c53e8a9cfa0a9d8d99dc551f6c4825e3773938f107"
+    },
+    {
+      "path": "UEBERGABE_NEUER_CHAT.md",
+      "bytes": 21711,
+      "sha256": "91ea6df7c950fce68b16e5ff68a295f2ccfcba60083849e0c67893048b937512"
+    },
+    {
+      "path": "arbeitsmaterial/extra/Crazy_Batto-Header-HQ.gif",
+      "bytes": 127910947,
+      "sha256": "f9de12ceddc10c8cb2944f34931dd805dab9dad58c4af09360337e97ae28b911"
+    },
+    {
+      "path": "arbeitsmaterial/originale/header-quelle.mp4",
+      "bytes": 2062587,
+      "sha256": "3ea7b5565cda495cb8458e381e0140384cf78ad667d94cf4f557cca5828cceda"
+    },
+    {
+      "path": "arbeitsmaterial/originale/marmor-gold.png",
+      "bytes": 2702322,
+      "sha256": "bff8784f4f3311a7f7cc10118d97a7cb84e99c02e4d2c450671d78744ff9a489"
+    },
+    {
+      "path": "arbeitsmaterial/referenzen/website-1000157317.jpg",
+      "bytes": 156647,
+      "sha256": "8ed269ded53441d07463344dd87de54d514c98fc7d852020062305c5ee941d7a"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/01-1000157322.webp",
+      "bytes": 75408,
+      "sha256": "ee74f03f330f16f3e06577ce60676a39bf489cd00a0aa58146fe7c94d81235ac"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/02-1000157319.webp",
+      "bytes": 16948,
+      "sha256": "98273576a77368311f4776909b6703a6eda9d7c01588cfa8ee4160ad952df524"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/03-1000157318.webp",
+      "bytes": 37620,
+      "sha256": "d901f4a20475c871d4bafd50bffbd3aab8a4cefd81cba4db8230439df9fe3fb7"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/05-1000157321.webp",
+      "bytes": 42706,
+      "sha256": "2e3f2a697b2a686d6acc676ad63d38e50daa5211e13600cf86a452591fceb122"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/06-1000157320.webp",
+      "bytes": 29116,
+      "sha256": "6448a7f9fd05d88b3249edc559bbb4c96b453c99aa97534120c63aae1171e7e6"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/07-1000157325.webp",
+      "bytes": 13586,
+      "sha256": "b286533b06e42547bb22ab393666df72f26ada19a314648016b27923d20d6a80"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/08-1000157324.webp",
+      "bytes": 25046,
+      "sha256": "c7807fd073da5adc9db44c133910b32f21802cd0aeac5536f672329b5753c2d8"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/09-1000157323.webp",
+      "bytes": 13182,
+      "sha256": "8103a5b20e5d352b6c4023b5e2a9b82502078c37dac31324e0a17d1c3c998268"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/gaming1.webp",
+      "bytes": 19828,
+      "sha256": "2e6e108d28960e6e017fce3583d76576553855e9bebd2f8dce4f5599b656644b"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/gaming2.webp",
+      "bytes": 19958,
+      "sha256": "06ef2bca3bf2dc77d50ce95f3dc52a9df508dae46372d53becf7c8c5f5cd930a"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/gaming3.webp",
+      "bytes": 17226,
+      "sha256": "9d3ad668ec93101fa00ab7796db7406511fd2c92ead0a6398b9c876040884ed7"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/gaming4.webp",
+      "bytes": 23918,
+      "sha256": "0da69bcbd483073b85650319f49a17644545b6fa7254d1b3dfb4a78c6b54c510"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/gaming5.webp",
+      "bytes": 22544,
+      "sha256": "cd8b8117eb6dc013f3bb86f2834908a7b2d2d47776fad4d4f2022a6151bd3984"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/gaming7.webp",
+      "bytes": 13816,
+      "sha256": "55ae3506961cba607301795988ca587bd589f6f5e786e797a42d3b6d4d6f4fa6"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/gaming8.webp",
+      "bytes": 24698,
+      "sha256": "de359080fd6fb9426ca37393279e5f6210216d9fd0a0016c402d123b5b2baddb"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/gaming9.webp",
+      "bytes": 16420,
+      "sha256": "0d56213eaa85389d0ec97406ea7321f851977cd811b2b92b42849b3146be882d"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/logo.webp",
+      "bytes": 25902,
+      "sha256": "27c0da898f3ede1b6927c787021209c04137d406dc3be347c944c52dc5a085ef"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/marble.webp",
+      "bytes": 39242,
+      "sha256": "b5c49f1797767229a75685468617bfdd5dfa62be0d5c9a2d1862432d0f625bf0"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/motion.mp4",
+      "bytes": 105287,
+      "sha256": "ad7877e0d098fd0112d4c2b847e2784bb0ec1f1247f747f8266ec79b4e861a72"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/oldkraken.webp",
+      "bytes": 7042,
+      "sha256": "db04941a65a722dd9e77da4c619ff68d1c5e23abba399cf6e857afbcd57da688"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/oldsetup.webp",
+      "bytes": 14066,
+      "sha256": "94134e2a15b2241f199efbf3965ac21ad7bd907f452ef33364b072bb2c189b1b"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/oldstart.webp",
+      "bytes": 7698,
+      "sha256": "ad7d08d366ca77690afe5eeec51dd6451a066f4c15e8fd736eb6a663890476da"
+    },
+    {
+      "path": "arbeitsmaterial/vorschau/portrait.webp",
+      "bytes": 33064,
+      "sha256": "3d4c15552b055e8b4cdd9f7124924a60179cbce68a4eb5aac031db393adb61c8"
+    },
+    {
+      "path": "quellcode/LIESMICH.txt",
+      "bytes": 4879,
+      "sha256": "5ce4ac3134b1ad04147a5a7193d4258c988c950c18d5b23cf921e904bad19090"
+    },
+    {
+      "path": "quellcode/banner.html",
+      "bytes": 644,
+      "sha256": "cdb3821b4e7cfaabad365c9d1f53196c6c5df72d94bed4b4e2d4795dc6781233"
+    },
+    {
+      "path": "quellcode/build.py",
+      "bytes": 7678,
+      "sha256": "1da1a11b51f3802121a24b91f10f04667c27f95c684c7bcf721cc789b9190189"
+    },
+    {
+      "path": "quellcode/discord.css",
+      "bytes": 2207,
+      "sha256": "46557105735d90148f4a21f6dd89365cf773c909c4baff27e9963a53a66ea077"
+    },
+    {
+      "path": "quellcode/discord.html",
+      "bytes": 6430,
+      "sha256": "7af277107ffaf462378ea64ac42346ee5ccb6381309c9ebecb31e11fe00e54ea"
+    },
+    {
+      "path": "quellcode/document.html",
+      "bytes": 461,
+      "sha256": "c514639543f8c4aa4788876dae4af4d55610e0b2684a19eb4081fbbebf44e0d8"
+    },
+    {
+      "path": "quellcode/export_server.py",
+      "bytes": 2077,
+      "sha256": "1fdb9d9a95f27f9ba1ffdc30bdd3621159372614c6ca1fab2cbacc72784b4d8b"
+    },
+    {
+      "path": "quellcode/gallery.html",
+      "bytes": 5388,
+      "sha256": "c8250ce954d56a948e0acbc7cede2fcdb5ce09b946d3a06428fcab86f5d112f1"
+    },
+    {
+      "path": "quellcode/gaming-intro.html",
+      "bytes": 1690,
+      "sha256": "f1fa455845ab4661f1416fb4ef744cc738a5381a2de1cf89db58b68dfc447f02"
+    },
+    {
+      "path": "quellcode/gaming-specs.html",
+      "bytes": 4325,
+      "sha256": "4a51fa4e8947eb3edc4f82578b675e6c83502db831b64fab6d24011239027794"
+    },
+    {
+      "path": "quellcode/gaming.html",
+      "bytes": 465,
+      "sha256": "3ad732fe7fb8e52950527d6f4a3632c517787122ca52c651f7c00b032b3f0b3a"
+    },
+    {
+      "path": "quellcode/home.html",
+      "bytes": 6510,
+      "sha256": "8eda504d8906f53ed45e7602517d7a6006dc777baa098bc9dfe4f8eb1ba074a0"
+    },
+    {
+      "path": "quellcode/inline-assets.html",
+      "bytes": 72,
+      "sha256": "760d8a36f53f35e15f3d822dc39954293194d019fa487a41da929557c5c31ec2"
+    },
+    {
+      "path": "quellcode/inline-template.html",
+      "bytes": 60,
+      "sha256": "a478363ab7701769ea102c454281489b754a8ea4cb392b741d297691db42a672"
+    },
+    {
+      "path": "quellcode/layout.html",
+      "bytes": 2217,
+      "sha256": "17a3d4ccde68e17898a69c692bf8171aa04bae2a49112b3eb8697533db670229"
+    },
+    {
+      "path": "quellcode/offline/generate_offline_html.py",
+      "bytes": 12468,
+      "sha256": "ea8ac209bb01c42b745799ceb679dcc00e0c70b47eebe868c6faad55ac1c5d7e"
+    },
+    {
+      "path": "quellcode/offline/offline-bootstrap.js",
+      "bytes": 1359,
+      "sha256": "b5c746963a804b5f13f2482513a58e2b8248b366481f0d76a224680ea5d1009a"
+    },
+    {
+      "path": "quellcode/offline/offline-router.js",
+      "bytes": 2145,
+      "sha256": "727979368f3e5df0e4af2149b3d8c832613d392b97f51cfa8604ba8ca4bce2aa"
+    },
+    {
+      "path": "quellcode/old-history.html",
+      "bytes": 2802,
+      "sha256": "263d698bc8b8025d0f9c7adf78dd6206932de94b41818139c71c39f38ff9fc5d"
+    },
+    {
+      "path": "quellcode/old-intro.html",
+      "bytes": 593,
+      "sha256": "cb81c10072bfb755ec2b087901a4b6474177ccbcc8375aefc7970a4abd29f0b4"
+    },
+    {
+      "path": "quellcode/old.html",
+      "bytes": 559,
+      "sha256": "0ef830d186780eda235fc98166b2a5edd347c86b90351fb3c5cd2383415c19d4"
+    },
+    {
+      "path": "quellcode/registration.css",
+      "bytes": 9630,
+      "sha256": "2a91660f8fc65b928811d82058d8a3ef0687dab260dee2551fa4fdecc7a5c65f"
+    },
+    {
+      "path": "quellcode/registration.html",
+      "bytes": 10727,
+      "sha256": "1f079ce6bee6a00d2b9a7e9ab5bb5210255adc8ce137667f44d38bd08a05a005"
+    },
+    {
+      "path": "quellcode/registration.js",
+      "bytes": 15205,
+      "sha256": "ebabb41e560a04318a013ab56a3ddf3c182bae75f67af849e053146b284215aa"
+    },
+    {
+      "path": "quellcode/restore_media.py",
+      "bytes": 1109,
+      "sha256": "cdb49a6895a4a7bc323eded90a41425d5791d1384f50801f6291380cf69c1f04"
+    },
+    {
+      "path": "quellcode/script.js",
+      "bytes": 3726,
+      "sha256": "6357b32464ff8cf7e8e5c9c5b19ee119d171e0f089ece25da5c9691da82bed4b"
+    },
+    {
+      "path": "quellcode/software-gallery.html",
+      "bytes": 4832,
+      "sha256": "14b257dc107b63be58aae764bdb5c5032d1318c331b05aca5a24517c687324dd"
+    },
+    {
+      "path": "quellcode/software.html",
+      "bytes": 4630,
+      "sha256": "4d75565c6d4490dfa7037abf76286545ee3efd66a0d27f71ef07ce8d7c2c7ddf"
+    },
+    {
+      "path": "quellcode/style.css",
+      "bytes": 18355,
+      "sha256": "1698945cac2d59541e7a5bcfc8f97372457c7d788720100a8d6fe08777b3c55b"
+    },
+    {
+      "path": "tests/registration-smoke.mjs",
+      "bytes": 10455,
+      "sha256": "81341e705194a4ae9c9a3255bc2af138c9337b12e96c018b791aaa233b95a596"
+    },
+    {
+      "path": "webseite/LIESMICH.txt",
+      "bytes": 4879,
+      "sha256": "5ce4ac3134b1ad04147a5a7193d4258c988c950c18d5b23cf921e904bad19090"
+    },
+    {
+      "path": "webseite/altes-setup.html",
+      "bytes": 6691,
+      "sha256": "aa8987abf4154c88181692feca4bf60c410538aa6f9ed03a49f8f792ca5528af"
+    },
+    {
+      "path": "webseite/assets/discord-app.png",
+      "bytes": 334026,
+      "sha256": "2df1e968100dc3ce7a991aef2a09f5112018869f6b85c89ec3ad2dc4bf5c5fc9"
+    },
+    {
+      "path": "webseite/assets/gaming-1.jpg",
+      "bytes": 792597,
+      "sha256": "6a9e62984eeb4b5cbb1977498513d4833153d1e85654aa007ddc6b56f0692eb3"
+    },
+    {
+      "path": "webseite/assets/gaming-2.jpg",
+      "bytes": 633433,
+      "sha256": "a3f47ff304f25a453ab35046720c41ca0bdf395234ae1638130d65339436f6c3"
+    },
+    {
+      "path": "webseite/assets/gaming-3.jpg",
+      "bytes": 528858,
+      "sha256": "d7d17dec9668e910b689b12021f39b133dbaca5ffaca0f95c42036470fa4ca23"
+    },
+    {
+      "path": "webseite/assets/gaming-4.jpg",
+      "bytes": 694380,
+      "sha256": "0c3d7920eb8ba887c1537590941171512798cf1db27ee160a20f89bab0a0d763"
+    },
+    {
+      "path": "webseite/assets/gaming-5.jpg",
+      "bytes": 760479,
+      "sha256": "6180075ea35655a7a5329fae26c5bec70256c5e315bef4899e20f62f5a0566c2"
+    },
+    {
+      "path": "webseite/assets/gaming-7.jpeg",
+      "bytes": 195492,
+      "sha256": "cb3435ac1781fc00d744e1c231dc925f1e179e067af2fb410c53521d5eb665e5"
+    },
+    {
+      "path": "webseite/assets/gaming-8.jpeg",
+      "bytes": 245564,
+      "sha256": "3781c1384f04bcb679a2860f1838899e33aa042bfcbcfce0ce8e161d647537e7"
+    },
+    {
+      "path": "webseite/assets/gaming-9.jpeg",
+      "bytes": 179927,
+      "sha256": "a304c4315c857f5cf2a78ae525506253ad9c12b2ab7fc8d48a0dc02ca34dabaa"
+    },
+    {
+      "path": "webseite/assets/gaming-aufbau-radiatoren.jpg",
+      "bytes": 895029,
+      "sha256": "b6a57a2aac41af8e04f844ff9774647e14ffb946398e931194f58b8d39e05956"
+    },
+    {
+      "path": "webseite/assets/gaming-rgb-slotcover.jpeg",
+      "bytes": 174336,
+      "sha256": "4185c066f08241b001255e5a6dc9385e562a549cccb6ec6fc745fe466b39a93d"
+    },
+    {
+      "path": "webseite/assets/gaming-setup-gesamt.jpeg",
+      "bytes": 412667,
+      "sha256": "4a23431cb0f6ac66ada7c006f01862048442fa7853e4e3cbee7a2690c6956387"
+    },
+    {
+      "path": "webseite/assets/gaming-wasserkuehlung-front.jpg",
+      "bytes": 556975,
+      "sha256": "da9843c085c39abdd62081be469fc4b598ccebbb0b09ebb605d229657af66e9e"
+    },
+    {
+      "path": "webseite/assets/header-poster.webp",
+      "bytes": 44110,
+      "sha256": "0fc38c0e9b7874fc602f4ac36855bc308c2f94e1ce345ddb4124d9ab729be2ce"
+    },
+    {
+      "path": "webseite/assets/header.gif",
+      "bytes": 15656002,
+      "sha256": "2bc82ecdba42ece31b98d7dff029c5a51ffe4e317a007297907951889b2dfe2e"
+    },
+    {
+      "path": "webseite/assets/kraken-g12.png",
+      "bytes": 770154,
+      "sha256": "ff9be619197e8ebae8c1a69095cd7738b47dbc17c96a954549e977c04890e48b"
+    },
+    {
+      "path": "webseite/assets/logo.jpeg",
+      "bytes": 342034,
+      "sha256": "99ee1da73144c9729d4be2c7f7f6016db45afe04e53df5647ed65e8e6e77a022"
+    },
+    {
+      "path": "webseite/assets/marble-gold-prompt.txt",
+      "bytes": 1214,
+      "sha256": "f1e9d0b15c75c53e484af9f3978239c21934ba7bf6bf8f8e1bce549da2b9eaf3"
+    },
+    {
+      "path": "webseite/assets/marble-gold.webp",
+      "bytes": 257970,
+      "sha256": "3ccd33583ca6440241cae759ec3306f5aef9c26a859158943fa225222276b911"
+    },
+    {
+      "path": "webseite/assets/portrait.png",
+      "bytes": 2696508,
+      "sha256": "1658ec4efc0349d16c5b5a726ee11c78d365281c1b47cc2c5a456ed3a94f84e6"
+    },
+    {
+      "path": "webseite/assets/setup-2022.jpeg",
+      "bytes": 108454,
+      "sha256": "0268ef16f5f3e5e77ccf4dd859a1c1ccaf65d1f63d15d81938d23abae6aad1e7"
+    },
+    {
+      "path": "webseite/assets/setup-umbau.jpeg",
+      "bytes": 120077,
+      "sha256": "5b144f8ad63fc7e133c5ab34dfa723013aa1db13015f6151b13b3f3c4775b45a"
+    },
+    {
+      "path": "webseite/assets/site.css",
+      "bytes": 30194,
+      "sha256": "54b247a2fd5f256f05981036022a104aa9dcaaadc8596afb1b0f763dfb5ef44f"
+    },
+    {
+      "path": "webseite/assets/site.js",
+      "bytes": 18932,
+      "sha256": "71aeff154a6fcbdac8ed04a6e62ea46185a94eb5635aac7b1fd6fc91e5ce0b32"
+    },
+    {
+      "path": "webseite/assets/software-luefterkurven.jpg",
+      "bytes": 96989,
+      "sha256": "3f81a9faf4f555f11a0d2fbbc70910cd5c05c03d063d26a8ee81ff86faaad39c"
+    },
+    {
+      "path": "webseite/assets/software-multi-chat.jpg",
+      "bytes": 257237,
+      "sha256": "65924810061f72b2d4653ebfb39013b3e30b6776dcb1ec734080d69e72050e38"
+    },
+    {
+      "path": "webseite/assets/software-rgb.jpg",
+      "bytes": 207937,
+      "sha256": "495b08fae56b88449b5d7872c0f883e9de663243c5cecf2da08f0a3172070dc5"
+    },
+    {
+      "path": "webseite/assets/software-start.jpg",
+      "bytes": 420413,
+      "sha256": "c04783120039ad1ac88a1b06dbb2597a6f30296cfb158566d637d0819fe6bfd2"
+    },
+    {
+      "path": "webseite/assets/software-strimer.jpg",
+      "bytes": 120219,
+      "sha256": "b2cda884f3ec0e36a9f31d83753bb1576f55ff0eee233ed26f776cfe30c2c62a"
+    },
+    {
+      "path": "webseite/assets/software-touch-deck.jpg",
+      "bytes": 152419,
+      "sha256": "981ad08f4876b473698933af2ad79ae315a00df7a7cfe29a4d8c02ce91372c26"
+    },
+    {
+      "path": "webseite/assets/software-uebersicht.jpg",
+      "bytes": 175821,
+      "sha256": "80df93537a2189bb9942839ea75eb9a9606998218fdd06a0886f0ede17eb2bd2"
+    },
+    {
+      "path": "webseite/assets/software-widgets.jpg",
+      "bytes": 96619,
+      "sha256": "e2b4fd5d9efe3f90f8be9afb8e38a7807b005f61e7b102864b9032f4d2dee24f"
+    },
+    {
+      "path": "webseite/discord-app.html",
+      "bytes": 9243,
+      "sha256": "9a7a1776b305b1a1ab3633bacdd12c3270d211ed15ae584d3ad0524aa040bfcd"
+    },
+    {
+      "path": "webseite/gaming-setup.html",
+      "bytes": 14616,
+      "sha256": "c63d7c2f49f7efd1429c135ff9ee9d681ab4446395dc9b77840b004414cdc5bf"
+    },
+    {
+      "path": "webseite/index.html",
+      "bytes": 9961,
+      "sha256": "07cc7dccbf8b7c6b2fae4c75495d4926c09bf338456738c414fb2cc48a62cfa6"
+    },
+    {
+      "path": "webseite/registrierung.html",
+      "bytes": 13519,
+      "sha256": "6def6d47e0e305912f925bdf0cbf2671a5bb641b4d211e36b2b3a1e85139e1b3"
+    },
+    {
+      "path": "webseite/software.html",
+      "bytes": 12256,
+      "sha256": "11d484f0e6b72d92f1bb0a031fac82440cf41e33acf93e25155f7605e49d09df"
+    }
+  ]
+}

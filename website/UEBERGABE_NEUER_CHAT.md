@@ -10,7 +10,7 @@ Eine persönliche, deutschsprachige Webseite für **Crazy_Batto** mit Vorstellun
 | --- | --- |
 | `index.html` | Animierter Header, Drachenlogo, Porträt, Kurzvorstellung, „Über mich“, Links zu beiden Setup-Seiten, Software-Vorstellung sowie vorbereitete Team-/Kontaktbereiche |
 | `altes-setup.html` | „Mein altes Setup – So habe ich angefangen“ mit der Geschichte ab 2022, Komponenten und drei Bildern |
-| `gaming-setup.html` | „Mein Gaming-Setup“ mit acht Fotos und der vollständigen vereinbarten Ausstattung |
+| `gaming-setup.html` | „Mein Gaming-Setup“ mit einem Gesamtfoto als Titelbild, elf Galeriefotos und der vollständigen vereinbarten Ausstattung |
 | `software.html` | „Software“, Projekt 01: Batto OBS Tool, ausgewählte Funktionen und acht Programmscreenshots |
 | `discord-app.html` | Projekt 02: Crazy_Batto Discord App, vorhandene Funktionen und App-Abbildung |
 | `registrierung.html` | Discord-Anmeldung, Zugangsanfrage, Freigabestatus und geschützter Download; lokal als ausdrückliche Vorschau |
@@ -159,7 +159,23 @@ Die Gehäusebezeichnung **O11 Dynamic** und der Klammerzusatz **O11 Dynamic EVO 
 
 Die Originale liegen unter `webseite/assets/gaming-1.jpg` bis `gaming-5.jpg` sowie `gaming-7.jpeg`, `gaming-8.jpeg` und `gaming-9.jpeg`. Ein Foto mit der Nummer 6 wurde nicht geliefert.
 
-Die Galerie zeigt acht vollständige Fotos in der Reihenfolge **1 → 4 → 2 → 3 → 5 → 7 → 8 → 9**. Anfangs ausgewählt ist das Foto 7 mit den roten Kühlleitungen; sein Zähler lautet daher **6 / 8**. Das Titelbild der Seite verwendet Foto 8. Die Auswahl aktualisiert Bild, Alternativtext, Maße, Bildunterschrift und Zähler.
+**Aktualisierung vom 10. Oktober 2026:** Das Titelbild bei „Mein neues System / Mein Gaming-Setup“ ist jetzt die ausdrücklich zugewiesene Gesamtansicht `Mein Gaming- Setup..jpeg`, unverändert gespeichert als `assets/gaming-setup-gesamt.jpeg` (1975 × 1474 Pixel).
+
+Die Galerie enthält **elf unterschiedliche Fotos**. Sie beginnt mit der Frontaufnahme `P_20260916_045401.jpg` (`assets/gaming-wasserkuehlung-front.jpg`, 1155 × 2048 Pixel), danach folgen die bisherigen Fotos **1 → 4 → 2 → 3 → 5 → 7 → 8 → 9** und die beiden zusätzlichen Motive „Aufbau mit Radiatoren und Lüftern“ sowie „Beleuchtete Slotblenden“. Der Startzähler lautet **1 / 11**. Auswahl, Alternativtext, Maße, Bildunterschrift und Zähler bleiben gekoppelt.
+
+**Noch offene Bildzuordnung:** Der Nutzer nannte für „Vom Aufbau bis zur Wasserkühlung“ eine gleichnamige Bilddatei. Unter den sieben neuen Anhängen und bei der Suche lag keine Datei mit genau diesem Namen vor. Eine optionale Rückfrage blieb unbeantwortet. Die Frontaufnahme ist deshalb ausdrücklich eine vorläufige Auswahl, keine bestätigte Zuordnung zur fehlenden Datei.
+
+| Neuer Upload | Verwendung / Datei in `webseite/assets/` |
+| --- | --- |
+| `Mein Gaming- Setup..jpeg` | Titelbild `gaming-setup-gesamt.jpeg` |
+| `5(1).jpg` | Galerie `gaming-aufbau-radiatoren.jpg` |
+| `5(2).jpg` | Bytegleich mit `5(1).jpg`; nur einmal gezeigt |
+| `5.jpeg` | Galerie `gaming-rgb-slotcover.jpeg` |
+| `P_20260916_045401.jpg` | Galerie und vorläufiges Startbild `gaming-wasserkuehlung-front.jpg` |
+| `8(1).jpeg` | Bytegleich mit dem vorhandenen `gaming-8.jpeg` |
+| `4(1).jpg` | Bytegleich mit dem vorhandenen `gaming-4.jpg` |
+
+Alle eingebundenen Originale bleiben bytegleich. Die Vorschau-Assetmap und die expliziten Server-Bildrouten enthalten die vier neuen Dateien. Der Offline-Export prüft alle mitgelieferten Bilder anhand ihrer Dateinamen statt anhand einer festen Anzahl.
 
 ## 6. Software – Projekt 01: Batto OBS Tool
 

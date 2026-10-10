@@ -76,7 +76,11 @@ preview_assets = {
     'oldstart': (PREVIEW / 'oldstart.webp', 'image/webp'),
     'oldsetup': (PREVIEW / 'oldsetup.webp', 'image/webp'),
     'oldkraken': (PREVIEW / 'oldkraken.webp', 'image/webp'),
-    'discordApp': (SITE / 'assets/discord-app.png', 'image/png')
+    'discordApp': (SITE / 'assets/discord-app.png', 'image/png'),
+    'gamingRoom': (SITE / 'assets/gaming-setup-gesamt.jpeg', 'image/jpeg'),
+    'gamingBuild': (SITE / 'assets/gaming-aufbau-radiatoren.jpg', 'image/jpeg'),
+    'gamingSlotcovers': (SITE / 'assets/gaming-rgb-slotcover.jpeg', 'image/jpeg'),
+    'gamingCoolingFront': (SITE / 'assets/gaming-wasserkuehlung-front.jpg', 'image/jpeg')
 }
 for number in [1,2,3,4,5,7,8,9]:
     preview_assets['gaming' + str(number)] = (PREVIEW / ('gaming' + str(number) + '.webp'), 'image/webp')
