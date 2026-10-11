@@ -1,4 +1,4 @@
-CRAZY_BATTO – WEBSEITE V6 · 11. OKTOBER 2026
+CRAZY_BATTO – WEBSEITE V7 · BILDAUSTAUSCH
 Schwarzer Marmor · Anthrazit · Gold
 
 ÖFFNEN
@@ -9,12 +9,11 @@ Die Webseite funktioniert lokal; ein Server oder eine Installation ist nicht nö
 SECHS SEITEN
 index.html
 Startseite mit animiertem Header, Drachenlogo, Porträt, Kurzvorstellung,
-»Über mich« mit einer Mausgalerie, deiner Hardware-Sammlung mit 15 Fotos
-und Verweisen auf die Setup- und Software-Seiten.
+»Über mich«, deiner ASUS-ROG-Sammlung und Verweisen auf die Setup- und Software-Seiten.
 
 altes-setup.html
 »Mein altes Setup – So habe ich angefangen«: die Setup-Geschichte ab 2022,
-drei bearbeitete Hauptfotos, fünf weitere Aufnahmen, erste Komponenten und Umbauten.
+drei bearbeitete Fotos an den bisherigen Plätzen, erste Komponenten und die Umbauten an CPU-/GPU-Kühlung.
 
 gaming-setup.html
 »Mein Gaming-Setup«: dein gesamter Gaming-Platz als Titelbild, eine Galerie
@@ -77,16 +76,13 @@ Die unterschiedlichen Bezeichnungen O11 Dynamic beim Gehäuse und
 O11 Dynamic EVO RGB beim SK-Crosscool III sind wie angegeben erhalten.
 
 FOTOS
-37 fertig bearbeitete PNGs aus deinen beiden Fotopaketen sind unverändert eingebaut.
-Die Maus steht bei »Persönliche Vorstellung & Ausstattung« in einer eigenen
-Galerie. Die Sammlung aus Grafikkarten und Mainboards folgt darunter.
-Das Gaming-Titelbild ist 16_Ganzes-Setup_bearbeitet.png.
-»Vom Aufbau bis zur Wasserkühlung« beginnt mit PNG 23, dem Aufbau ohne Kühlrohre.
-Die doppelte Aufnahme des Aufbaus wird nur einmal gezeigt. Unterschiedliche
-Perspektiven bleiben erhalten. Der Maus-Screenshot mit Handy-Bedienoberfläche
-ist als normales Webseitenfoto ausgeschlossen.
-Die sieben vorhandenen Gamingfotos ohne fertige Ersatzbearbeitung bleiben erhalten.
-Die vollständige Zuordnung steht in BILDZUORDNUNG_WEBSEITE.csv im Projektordner.
+Die sieben passenden bearbeiteten Fotos ersetzen die bisherigen drei Bilder
+zum alten Setup, das Gaming-Titelbild und drei Fotos in der bestehenden
+Gaming-Galerie. Die übrigen Fotos und die Galerie-Reihenfolge bleiben erhalten.
+Der doppelte PC-Aufbau wird einmal gezeigt. Die Maus steht als einzelnes Bild
+im vorhandenen Über-mich-Abschnitt vor dem Text.
+Die fertigen Bilddateien werden ohne weitere Bearbeitung eingebunden.
+Die Zuordnung steht in BILDZUORDNUNG_WEBSEITE.csv im Projektordner.
 
 SOFTWARE-SCREENSHOTS
 Die acht Programmbilder liegen unverändert in assets/software-*.jpg.

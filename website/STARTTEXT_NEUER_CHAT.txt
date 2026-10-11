@@ -1,25 +1,17 @@
-Ich möchte mein Webseitenprojekt Crazy_Batto auf dem aktuellen Stand V6 fortsetzen.
-Bitte das ZIP vollständig entpacken und zuerst START_HIER.md, UEBERGABE_NEUER_CHAT.md
-sowie BILDZUORDNUNG_WEBSEITE.csv lesen.
+Ich möchte mein Webseitenprojekt Crazy_Batto auf dem korrigierten Stand V7 fortsetzen.
+Bitte zuerst START_HIER.md, UEBERGABE_NEUER_CHAT.md und BILDZUORDNUNG_WEBSEITE.csv lesen.
 
-Die Webseite hat sechs Seiten: Startseite/Über mich, Mein altes Setup,
-Mein Gaming-Setup, Batto OBS Tool, Crazy_Batto Discord App und Registrierung.
-37 fertig bearbeitete PNGs sind passend eingebaut. Die ROG-Maus steht bei
-Persönliche Vorstellung & Ausstattung, die Hardware-Sammlung darunter.
-Der doppelte PC-Aufbau erscheint nur einmal. Bildzuordnungen beibehalten.
-Porträt vor Kurzvorstellung und die Formulierung „Am 2022 habe ich wieder
-angefangen, mich mit PCs zu beschäftigen.“ beibehalten.
+Es sollte nur vorhandenes Bildmaterial ausgetauscht werden. Die vorhandenen
+Seiten, Texte, Reihenfolge und Gestaltung sind beizubehalten. Sieben passende
+Fotoersetzungen, ein einzelnes früher ausdrücklich gewünschtes Mausbild im
+Über-mich-Abschnitt und die bereinigte doppelte PC-Aufbauaufnahme sind umgesetzt.
+Keine neue Sammlungssektion, keine zusätzlichen Galerien und kein automatischer
+Sprung zum Mausbereich. Die vorhandenen Gaming- und Softwaregalerien bleiben.
 
-Design: dunkler schwarzer Marmor mit Goldadern, Anthrazit und helle Schrift.
-Batto OBS Tool ist nicht freigegeben. Keinen Download, Release-Termin oder
-vollständige Funktionsliste ergänzen. CNG ausstehend, RGB als Vorschau,
-iCUE für tatsächliche Lüftersteuerung, Strimer als virtuelle Demo ohne Hardware-Ausgabe.
-Die Offline-Registrierung ist eine ausdrücklich beschriftete Demo.
+Porträt vor Kurzvorstellung und „Am 2022 habe ich wieder angefangen, mich mit
+PCs zu beschäftigen.“ beibehalten. Batto OBS Tool ist nicht freigegeben:
+kein Programm-Download, kein Release-Termin, keine vollständige Funktionsliste.
+Discord-App und Registrierung gehören zur Seite; offline ist die Registrierung
+nur eine ausdrücklich bezeichnete Vorschau.
 
-Auf diesem bestehenden Stand weiterarbeiten. Den nächsten Änderungswunsch
-nenne ich in meiner folgenden Nachricht.
-
-Die Einzeldatei öffnet direkt beim Über-mich-Bereich über --start-anchor cb-ueber-mich.
-Die sechs Startdateien im ZIP-Hauptordner führen auf die aktuellen Seiten in
-webseite/. index.html und 00-STARTEN.html öffnen direkt den Mausbereich.
-Diese Kompatibilität für frühere Webseitenordner beim nächsten Export beibehalten.
+Den nächsten Änderungswunsch nenne ich anschließend.

@@ -1,28 +1,18 @@
-CRAZY_BATTO – WEBSEITE V6
-Stand: 11. Oktober 2026
+CRAZY_BATTO – WEBSEITE V7
 
-1. Dieses ZIP vollständig entpacken.
-   Bei einem Update im bisherigen Ordner gleichnamige Dateien ersetzen.
-2. index.html oder 00-STARTEN.html direkt im Hauptordner doppelt anklicken.
-   Die Webseite öffnet direkt beim Über-mich-Bereich mit der Mausgalerie.
-   Für die Startseite ganz oben: webseite/index.html öffnen.
+Das ZIP vollständig entpacken und index.html oder 00-STARTEN.html im
+Hauptordner öffnen. Beim Aktualisieren eines bisherigen Ordners gleichnamige
+Dateien ersetzen. Alle Seiten und Medien im Unterordner webseite zusammenlassen.
+Die Webseite beginnt wieder regulär oben auf der Startseite.
 
-Alle Seiten, Bilder und Unterordner zusammenlassen.
-Die Seite funktioniert ohne Server und ohne Internetverbindung.
-Die Registrierung ist lokal eine deutlich bezeichnete Beispielansicht.
+Die separate Crazy_Batto-Webseite-NEUE-BILDER.html enthält alle sechs Seiten
+und alle eingebundenen Medien in einer Datei und kann direkt geöffnet werden.
 
-Die sechs HTML-Dateien im Hauptordner sind Startdateien. Sie führen zu den
-aktuellen Seiten unter webseite/. Damit öffnet auch der bisherige Einstieg
-über index.html nach dem Ersetzen der Dateien die aktualisierte Webseite.
-Die separate Datei Crazy_Batto-Webseite-NEUE-BILDER.html enthält die gesamte
-Webseite und alle Bilder; sie kann ohne Entpacken geöffnet werden.
+Sieben vorhandene Fotos sind durch ihre bearbeiteten Fassungen ersetzt.
+Ein einzelnes Mausbild steht im vorhandenen Über-mich-Bereich.
+Der doppelte PC-Aufbau erscheint einmal. Die bisherigen Texte, Seiten und
+Galerien bleiben erhalten; zusätzliche Galerien aus V5 sind zurückgenommen.
 
-BEARBEITEN
-Die vollständigen Webseitenquellen liegen in quellcode/.
-Die Bildzuordnung steht in BILDZUORDNUNG_WEBSEITE.csv.
-Vor der Weiterarbeit START_HIER.md und UEBERGABE_NEUER_CHAT.md lesen.
-
-ENTHALTENE ÄNDERUNGEN
-37 fertig bearbeitete PNGs: Maus, Hardware-Sammlung und Setupfotos.
-Die doppelte Aufnahme des weißen PC-Aufbaus erscheint einmal.
-Maus-Screenshot mit Handy-Bedienoberfläche wird nicht auf der Webseite gezeigt.
+Zum Weiterbearbeiten START_HIER.md, UEBERGABE_NEUER_CHAT.md und
+BILDZUORDNUNG_WEBSEITE.csv lesen. Quellen liegen unter quellcode/.
+Die Offline-Registrierung ist eine beschriftete Beispielansicht.
