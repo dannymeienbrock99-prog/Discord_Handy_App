@@ -1,23 +1,23 @@
 # Crazy_Batto – Übergabe für den nächsten Chat
 
-**Stand: 10. Oktober 2026.** Die zuletzt beauftragte Erweiterung „Software – Batto OBS Tool“ ist eingebaut. Diese Übergabe dient dazu, das bestehende Webseitenprojekt im nächsten Chat ohne Verlust von Dateien, Inhalten oder Entscheidungen fortzuführen.
+**Stand: 11. Oktober 2026 · Version 5.** Die beiden Fotopakete sind übernommen; Mausgalerie, Hardware-Sammlung und die aktualisierten Setupfotos sind eingebaut. Diese Übergabe dient dazu, das bestehende Webseitenprojekt im nächsten Chat ohne Verlust von Dateien, Inhalten oder Entscheidungen fortzuführen.
 
 ## 1. Ziel und aktueller Stand
 
-Eine persönliche, deutschsprachige Webseite für **Crazy_Batto** mit Vorstellung, Hardwaregeschichte, aktuellem Gaming-Setup und eigenen Softwareprojekten. Das Projekt ist eine vollständig lokal nutzbare statische Webseite aus HTML, CSS und JavaScript. Es gibt sechs echte Seiten, gemeinsame Navigation und zwei unabhängige Bildergalerien.
+Eine persönliche, deutschsprachige Webseite für **Crazy_Batto** mit Vorstellung, Hardwaregeschichte, aktuellem Gaming-Setup und eigenen Softwareprojekten. Das Projekt ist eine vollständig lokal nutzbare statische Webseite aus HTML, CSS und JavaScript. Es gibt sechs echte Seiten, gemeinsame Navigation und fünf unabhängige Bildergalerien.
 
 | Datei in `webseite/` | Inhalt |
 | --- | --- |
 | `index.html` | Animierter Header, Drachenlogo, Porträt, Kurzvorstellung, „Über mich“, Links zu beiden Setup-Seiten, Software-Vorstellung sowie vorbereitete Team-/Kontaktbereiche |
-| `altes-setup.html` | „Mein altes Setup – So habe ich angefangen“ mit der Geschichte ab 2022, Komponenten und drei Bildern |
-| `gaming-setup.html` | „Mein Gaming-Setup“ mit einem Gesamtfoto als Titelbild, elf Galeriefotos und der vollständigen vereinbarten Ausstattung |
+| `altes-setup.html` | „Mein altes Setup – So habe ich angefangen“ mit der Geschichte ab 2022, Komponenten, drei bearbeiteten Hauptbildern und fünf weiteren Fotos |
+| `gaming-setup.html` | „Mein Gaming-Setup“ mit einem Gesamtfoto als Titelbild, zehn Galeriefotos und der vollständigen vereinbarten Ausstattung |
 | `software.html` | „Software“, Projekt 01: Batto OBS Tool, ausgewählte Funktionen und acht Programmscreenshots |
 | `discord-app.html` | Projekt 02: Crazy_Batto Discord App, vorhandene Funktionen und App-Abbildung |
 | `registrierung.html` | Discord-Anmeldung, Zugangsanfrage, Freigabestatus und geschützter Download; lokal als ausdrückliche Vorschau |
 
 Die gemeinsame Navigation führt zu Start, Über mich, Mein altes Setup, Mein Gaming-Setup, Software, Team und Kontakt. „Über mich“, Team und Kontakt sind Abschnitte der Startseite. Beide Setup-Themen und Software sind eigene Seiten.
 
-Die zuletzt gezeigte Chat-Vorschau startete direkt bei **Software**, damit die neueste Änderung sofort sichtbar war. Für die gewöhnliche Webseite bleibt `index.html` die Startseite.
+Die zusätzliche Fragmentvorschau startet weiterhin direkt bei **Software**, damit die neueste Änderung sofort sichtbar war. Für die gewöhnliche Webseite bleibt `index.html` die Startseite.
 
 ## 2. Designentscheidungen
 
@@ -83,9 +83,9 @@ Die zeitliche Erzählung entspricht den Angaben des Nutzers; zusätzliche Kauf-,
 
 | Ursprünglicher Upload | Datei in `webseite/assets/` |
 | --- | --- |
-| `Anfang.jpeg` | `setup-2022.jpeg` |
-| `Altes setup.jpeg` | `setup-umbau.jpeg` |
-| `Kraken G12.png` | `kraken-g12.png` |
+| `Anfang.jpeg` / `Anfang(1).jpeg` | `13_Anfang_bearbeitet.png` |
+| `Altes setup.jpeg` / `Altes setup(1).jpeg` | `14_Altes-Setup_bearbeitet.png` |
+| `Kraken G12.png` / `Kraken G12(1).png` | `15_Kraken-G12_bearbeitet.png` |
 
 ## 5. Mein Gaming-Setup
 
@@ -155,27 +155,28 @@ Weitere Modellvarianten, Speicherlaufwerke, Monitorfrequenzen oder Ausstattungsa
 
 Die Gehäusebezeichnung **O11 Dynamic** und der Klammerzusatz **O11 Dynamic EVO RGB** beim SK-Crosscool III wurden vom Nutzer unterschiedlich angegeben und so erhalten.
 
-### Fotos
+### Fotos – aktualisierte Zuordnung in Version 5
 
-Die Originale liegen unter `webseite/assets/gaming-1.jpg` bis `gaming-5.jpg` sowie `gaming-7.jpeg`, `gaming-8.jpeg` und `gaming-9.jpeg`. Ein Foto mit der Nummer 6 wurde nicht geliefert.
+Das Titelbild bei „Mein neues System / Mein Gaming-Setup“ zeigt weiterhin den gesamten Gaming-Platz. Es verwendet jetzt die fertige Bearbeitung **`16_Ganzes-Setup_bearbeitet.png`** (1451 × 1084 Pixel).
 
-**Aktualisierung vom 10. Oktober 2026:** Das Titelbild bei „Mein neues System / Mein Gaming-Setup“ ist jetzt die ausdrücklich zugewiesene Gesamtansicht `Mein Gaming- Setup..jpeg`, unverändert gespeichert als `assets/gaming-setup-gesamt.jpeg` (1975 × 1474 Pixel).
+„Vom Aufbau bis zur Wasserkühlung“ beginnt mit **`23_PC-Aufbau_ohne-Rohre_bearbeitet.png`** (1189 × 1323 Pixel). Die Zuordnung stützt sich auf die mitgelieferte CSV und den Vergleich mit dem vorhandenen Aufbau-Motiv. Der frühere vorläufige Einstieg über die Frontaufnahme ist ersetzt. Eine Datei mit dem wörtlichen Titel „Vom Aufbau bis zur Wasserkühlung“ wird dabei nicht behauptet.
 
-Die Galerie enthält **elf unterschiedliche Fotos**. Sie beginnt mit der Frontaufnahme `P_20260916_045401.jpg` (`assets/gaming-wasserkuehlung-front.jpg`, 1155 × 2048 Pixel), danach folgen die bisherigen Fotos **1 → 4 → 2 → 3 → 5 → 7 → 8 → 9** und die beiden zusätzlichen Motive „Aufbau mit Radiatoren und Lüftern“ sowie „Beleuchtete Slotblenden“. Der Startzähler lautet **1 / 11**. Auswahl, Alternativtext, Maße, Bildunterschrift und Zähler bleiben gekoppelt.
+Die Galerie hat **zehn unterschiedliche Fotoauswahlen** und startet bei **1 / 10**:
 
-**Noch offene Bildzuordnung:** Der Nutzer nannte für „Vom Aufbau bis zur Wasserkühlung“ eine gleichnamige Bilddatei. Unter den sieben neuen Anhängen und bei der Suche lag keine Datei mit genau diesem Namen vor. Eine optionale Rückfrage blieb unbeantwortet. Die Frontaufnahme ist deshalb ausdrücklich eine vorläufige Auswahl, keine bestätigte Zuordnung zur fehlenden Datei.
+1. Bearbeiteter Aufbau ohne Kühlrohre (`gamingBuild`, PNG 23).
+2. Mainboard vor dem Einbau (`gaming1`).
+3. Einbau des Mainboards (`gaming4`).
+4. Corsair-Lüfter und Glacial (`gaming2`).
+5. Kühlung und Beleuchtung (`gaming3`).
+6. Montierte Wasserkühlung (`gaming7`).
+7. Bearbeitetes Detail der roten Kühlrohre (`gaming8`, PNG 24).
+8. Bearbeiteter CPU-Block mit Display (`gaming9`, PNG 25).
+9. Beleuchtete Slotblenden (`gamingSlotcovers`).
+10. Wasserkühlung von vorne (`gamingCoolingFront`).
 
-| Neuer Upload | Verwendung / Datei in `webseite/assets/` |
-| --- | --- |
-| `Mein Gaming- Setup..jpeg` | Titelbild `gaming-setup-gesamt.jpeg` |
-| `5(1).jpg` | Galerie `gaming-aufbau-radiatoren.jpg` |
-| `5(2).jpg` | Bytegleich mit `5(1).jpg`; nur einmal gezeigt |
-| `5.jpeg` | Galerie `gaming-rgb-slotcover.jpeg` |
-| `P_20260916_045401.jpg` | Galerie und vorläufiges Startbild `gaming-wasserkuehlung-front.jpg` |
-| `8(1).jpeg` | Bytegleich mit dem vorhandenen `gaming-8.jpeg` |
-| `4(1).jpg` | Bytegleich mit dem vorhandenen `gaming-4.jpg` |
+`gaming-5.jpg` und `gaming-aufbau-radiatoren.jpg` wiederholten denselben Aufbau mit unterschiedlichem Beschnitt. Beide sind durch PNG 23 ersetzt. Die in der CSV ausdrücklich benannten identischen Originale `5(3).jpg` und `5(4).jpg` werden ebenfalls gemeinsam durch genau diese eine fertige Datei abgedeckt.
 
-Alle eingebundenen Originale bleiben bytegleich. Die Vorschau-Assetmap und die expliziten Server-Bildrouten enthalten die vier neuen Dateien. Der Offline-Export prüft alle mitgelieferten Bilder anhand ihrer Dateinamen statt anhand einer festen Anzahl.
+Die sieben verbleibenden ursprünglichen Gamingfotos haben keine zugeordnete fertige Bearbeitung in den neuen Paketen und bleiben bytegleich. Auch die neue PNG-Fassung wird ohne erneute Retusche, Skalierung oder Komprimierung verwendet. Quelle und Verwendung jedes gelieferten Fotos stehen in **`BILDZUORDNUNG_WEBSEITE.csv`**.
 
 ## 6. Software – Projekt 01: Batto OBS Tool
 
@@ -239,12 +240,12 @@ Es sind somit **acht Programmbilder: ein Titelbild und sieben Galerieansichten**
 | `style.css` | Gemeinsame Gestaltung, einschließlich dunklem Marmor und Gold |
 | `script.js` | Header-Pause, unabhängige Galerieauswahl und Navigation der Chat-Vorschau |
 | `inline-template.html`, `inline-assets.html` | Vorlagen für die optionale eingebettete Chat-Vorschau |
-| `build.py` | Erzeugt die vier Webseiten und optional die Chat-Vorschau |
+| `build.py` | Erzeugt die sechs Webseiten und optional die Chat-Vorschau |
 | `LIESMICH.txt` | Lesehinweise für die fertig gebaute Webseite |
 
 Ein normaler Build ist mit `python3 quellcode/build.py` aus dem entpackten Projektordner möglich. Er benötigt keine externen Python-Pakete, keine Node-Installation und keine Internetverbindung. Die Originalbilder bleiben in `webseite/assets/`.
 
-Mit `--preview-output DATEIPFAD` kann zusätzlich eine HTML-Fragmentdatei erzeugt werden. Dafür liegen sämtliche benötigten komprimierten Medien unter `arbeitsmaterial/vorschau/`. Eine neue interaktive Vorschau muss im nächsten Chat mit dessen verfügbaren Vorschaufunktionen ausgegeben werden; frühere absolute Workspace-Pfade sind dort nicht gültig.
+Mit `--preview-output DATEIPFAD` kann zusätzlich eine HTML-Fragmentdatei erzeugt werden. Logo, Porträt, Softwarevorschauen, Marmor und das Header-MP4 liegen unter `arbeitsmaterial/vorschau/`. Die Fotos werden direkt aus ihren aktuellen Pfaden in `webseite/assets/` übernommen. Eine neue interaktive Vorschau muss im nächsten Chat mit dessen verfügbaren Vorschaufunktionen ausgegeben werden; frühere absolute Workspace-Pfade sind dort nicht gültig.
 
 Die Galerien werden getrennt über `data-gallery` initialisiert. Der Software-Bereich darf nicht versehentlich die Gaming-Bilder oder deren Zähler ändern. Die gemeinsame CSS-Wurzel ist `#cb-website`.
 
@@ -326,3 +327,33 @@ Einzeldatei-Erzeugung unter `quellcode/offline/`. `build.py` bündelt die drei
 CSS-Dateien und die beiden JavaScript-Dateien. Die kleine bisherige
 Chat-Vorschau kann durch die zusätzlichen Inhalte größer als 1 MB sein;
 die Offline-HTML verwendet alle Originalmedien ohne diese Größenbegrenzung.
+
+## 12. Bilderpakete und Offline-Version 5 – 11. Oktober 2026
+
+Beide gespeicherten Pakete wurden vollständig abgerufen, entpackt und anhand ihrer Übergaben und CSV-Dateien gelesen:
+
+- `Crazy_Batto_Fotos_Umzug.zip`: zehn fertige PNGs der Hardware-Sammlung plus zehn Originale als Referenz.
+- `Crazy-Batto_Alle-bearbeiteten-Bilder.zip`: 28 fertige PNGs mit Maus-, Setup- und Hardwareaufnahmen.
+
+Von 38 gelieferten Bearbeitungen sind **37** auf der Webseite eingebaut. `12_ROG-Maus_Ansicht-10_Screenshot.png` enthält eine Handy-Bedienoberfläche und bleibt im gelieferten Fotopaket als Referenz. Es wird nicht als normales Webseitenfoto gezeigt. Unterschiedliche Perspektiven derselben Hardware sind keine automatisch zu löschenden Dubletten. Originalarchive und Originalfotos der Fotopakete wurden nicht verändert.
+
+### Platzierung
+
+| Bereich | Fertige PNGs | Anordnung |
+| --- | --- | --- |
+| Über mich – Persönliche Vorstellung & Ausstattung | Zehn Mausaufnahmen (02–11) | Eigene Galerie links neben dem persönlichen Text; auf schmalen Displays vor dem Text. Anfangsbild: PNG 08 / `mouse06`. Unter 580 px drei Thumbnailspalten. |
+| Startseite – Meine Hardware-Sammlung | 15 Fotos | Eigene Galerie unter Über mich: PNG 01, 17, 18, 20, 28 und alle zehn Bilder des weiteren Pakets. |
+| Mein altes Setup | Acht Fotos | Hauptbilder PNG 13–15; neue Fünfergalerie mit PNG 22, 21, 27, 19, 26. Nur die beiden Dezemberfotos sind datiert. |
+| Mein Gaming-Setup | Vier Fotos | Gesamtfoto PNG 16; Galeriefotos PNG 23–25. Sieben weitere vorhandene Originalfotos bleiben in der Galerie. |
+
+Porträt vor Kurzvorstellung, der Satz „Am 2022 habe ich wieder angefangen, mich mit PCs zu beschäftigen.“, dunkler Marmor, Gold und Anthrazit bleiben erhalten. Die genaue Maus-Modellbezeichnung und die unsicher lesbare Mainboard-Beschriftung eines Sammlungsfotos wurden nicht als neue technische Angaben ergänzt.
+
+### Export und Prüfung
+
+Die aktuelle Einzeldatei heißt `Crazy_Batto-Webseite-V5.html` und startet auf der Startseite. Das neue ZIP enthält die Webseite unter `webseite/`, die bearbeitbaren Vorlagen unter `quellcode/`, die noch benötigten Vorschauhilfen, diese Übergabe und die Bildzuordnung. `00-STARTEN.html` öffnet die Webseite direkt beim aktualisierten Über-mich-Bereich; `webseite/index.html` startet regulär ganz oben.
+
+58 Mediendateien liegen im Runtimepaket. Alle 37 neuen PNGs sind bytegleich zu den gelieferten Bearbeitungen. Die fünf Galerien haben 47 Fotoauswahlen: Maus 10, Sammlung 15, alte Setups 5, Gaming 10, Software 7. Der DOM-Prüflauf prüft alle Auswahlen einschließlich der vier jeweils unberührten Galerien, alle sechs Seiten, 43 interne Verknüpfungen und sechs lokale Registrierungsansichten. Kein Netzwerkzugriff wird im Offline-Prüflauf ausgeführt. Eine echte Browser-Sichtprüfung war in dieser Umgebung nicht verfügbar.
+
+Der Serverexport enthält die gleichen Bildbytes über 60 explizite Assetrouten einschließlich CSS/JS. Alte ersetzte Fotos müssen auch aus bestehenden Exportzielordnern entfernt werden: `export_server.py` kopiert und überschreibt, löscht aber keine früheren Dateien. Die Serverprüfung gleicht die tatsächlich verwendeten Medien mit dem Paket ab.
+
+Die Fragmentvorschau liest Foto-Pfade aus den aktuellen Vorlagen. Separate alte Foto-WebPs wurden entfernt, damit die Vorschau keine früheren Bildstände verwenden kann. Das unbeauftragte Batto-OBS-Tool-Release bleibt gesperrt; alle bisherigen Hinweise zu CNG, RGB, iCUE und virtueller Strimer-Demo gelten unverändert. Offline-Registrierung bleibt ausdrücklich eine Demo.
