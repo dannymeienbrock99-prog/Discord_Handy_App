@@ -4,6 +4,7 @@
 This script reads the master only. It does not run its build or encode/edit images.
 Usage: python3 generate_offline_html.py [--master PATH] [--output PATH]
                                       [--report-dir PATH] [--start-page PAGE]
+                                      [--start-anchor ID]
 
 The portable copy lives in quellcode/offline: its default master is ../.. and its
 default output is Crazy_Batto-Offline.html inside that project. Verification
@@ -72,10 +73,13 @@ def main():
     parser.add_argument('--output', type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument('--start-page', choices=tuple(PAGE_NAMES), default='home',
                         help='Page shown when the offline file opens without a hash link (default: home).')
+    parser.add_argument('--start-anchor', default='',
+                        help='Optional section ID on the start page to show immediately when opening the file.')
     parser.add_argument('--report-dir', type=Path, default=DEFAULT_REPORT_DIR,
                         help='Optional directory for verification JSON and the DOM fixture; outside quellcode.')
     args = parser.parse_args()
     start_page = args.start_page
+    start_anchor = args.start_anchor
     root = args.master.resolve()
     source = root / 'quellcode'
     site = root / 'webseite'
@@ -113,6 +117,12 @@ def main():
     for name, content in pages.items():
         assert content in (site / PAGE_NAMES[name]).read_bytes().decode('utf-8'), name
 
+    start_inspector = Inspect()
+    start_inspector.feed(pages[start_page])
+    if start_anchor and (not re.fullmatch(r'[A-Za-z][A-Za-z0-9_-]*', start_anchor)
+                         or start_anchor not in start_inspector.ids):
+        parser.error('--start-anchor must name an existing section on --start-page.')
+
     contents = '\n'.join(content if name == start_page else content.replace('data-page="' + name + '"', 'data-page="' + name + '" hidden', 1) for name, content in pages.items())
     banner = read('banner.html')
     if start_page != 'home':
@@ -124,6 +134,9 @@ def main():
               .replace('__CONTENT__', contents)
               .replace('__ASSET_DATA__', ''))
     layout = layout.replace('data-preview="false"', 'data-preview="false" data-offline="true"', 1)
+    if start_anchor:
+        layout = layout.replace('data-start-page="' + start_page + '"',
+                                'data-start-page="' + start_page + '" data-start-anchor="' + start_anchor + '"', 1)
     # A file export cannot be switched live by an inherited template setting.
     if re.search(r'\bdata-portal-mode="[^"]*"', layout):
         layout = re.sub(r'\bdata-portal-mode="[^"]*"', 'data-portal-mode="offline"', layout, count=1)
@@ -220,7 +233,7 @@ def main():
 
     report = {
         'output': str(output), 'bytes': len(data), 'sha256': digest(data),
-        'pages': list(PAGE_NAMES.values()), 'start_page': start_page,
+        'pages': list(PAGE_NAMES.values()), 'start_page': start_page, 'start_anchor': start_anchor,
         'portal_mode': 'offline',
         'original_page_bodies_match_handover': True,
         'asset_count': len(assets), 'asset_bytes': sum(a['bytes'] for a in asset_report),

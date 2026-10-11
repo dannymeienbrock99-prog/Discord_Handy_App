@@ -1,12 +1,12 @@
-# Crazy_Batto – Webseite V5
+# Crazy_Batto – Webseite V6
 
 **Stand: 11. Oktober 2026.** Weiterarbeit auf der bestehenden Webseite mit sechs Seiten, überarbeiteten Fotozuordnungen und dem unveränderten Design aus schwarzem Marmor, Gold und Anthrazit.
 
 ## Sofort ansehen
 
-Das ZIP vollständig entpacken und **`00-STARTEN.html`** öffnen. Dieser Einstieg zeigt direkt den aktualisierten Über-mich-Bereich mit der Maus. **`webseite/index.html`** öffnet die Startseite ganz oben. Die Dateien und der Medienordner müssen zusammenbleiben. Eine Installation und ein Server sind für die Vorschau nicht nötig.
+Das ZIP vollständig entpacken und **`index.html`** oder **`00-STARTEN.html`** direkt im Hauptordner öffnen. Beide Einstiege zeigen direkt den aktualisierten Über-mich-Bereich mit der Maus. **`webseite/index.html`** öffnet die Startseite ganz oben. Beim Entpacken in einen bisherigen Webseitenordner gleichnamige Dateien ersetzen. Die Dateien und der Medienordner müssen zusammenbleiben. Eine Installation und ein Server sind für die Vorschau nicht nötig.
 
-Die separate **`Crazy_Batto-Webseite-V5.html`** enthält dieselbe Webseite samt allen Bildern in einer Datei. Sie startet auf der Startseite.
+Die separate **`Crazy_Batto-Webseite-NEUE-BILDER.html`** enthält dieselbe Webseite samt allen Bildern in einer Datei. Sie öffnet direkt bei „Persönliche Vorstellung & Ausstattung“ mit der Mausgalerie. Die Startseite ist weiterhin über „Start“ erreichbar.
 
 ## Vor dem Bearbeiten lesen
 
@@ -15,6 +15,7 @@ Die separate **`Crazy_Batto-Webseite-V5.html`** enthält dieselbe Webseite samt 
 
 | Ordner / Datei | Inhalt |
 | --- | --- |
+| Sechs HTML-Dateien im Hauptordner und `00-STARTEN.html` | Startdateien für die aktuellen Seiten unter `webseite/`, auch für den bisherigen Einstieg über `index.html` |
 | `webseite/` | Sechs fertige Seiten, Medien, gemeinsame Gestaltung und JavaScript |
 | `quellcode/` | Bearbeitbare Vorlagen und portable Build-/Exportskripte |
 | `arbeitsmaterial/vorschau/` | Ergänzende Vorschauhilfen für Logo, Porträt, Software, Marmor und Header |
@@ -36,10 +37,10 @@ Unter Windows gegebenenfalls `python` oder `py -3` verwenden. Nur Python 3 mit S
 ### Einzelne Offline-HTML
 
 ```bash
-python3 quellcode/offline/generate_offline_html.py --output Crazy_Batto-Webseite-V5.html
+python3 quellcode/offline/generate_offline_html.py --output Crazy_Batto-Webseite-NEUE-BILDER.html --start-page home --start-anchor cb-ueber-mich
 ```
 
-Optional startet `--start-page gaming` direkt beim Gaming-Setup. Ohne die Option beginnt die Datei auf der Startseite.
+Optional startet `--start-page gaming` direkt beim Gaming-Setup; dabei den nur auf Home vorhandenen `--start-anchor cb-ueber-mich` weglassen. Ohne beide Optionen beginnt die Datei ganz oben auf der Startseite.
 
 ### Ergänzende Fragmentvorschau
 
@@ -64,3 +65,11 @@ Batto OBS Tool ist **noch nicht freigegeben**: kein Programm-Download, kein Rele
 Discord-App und Registrierung sind enthalten. Die lokale Webseite zeigt ausdrücklich eine **Offline-Demo**: Sie meldet niemanden bei Discord an, sendet keinen Antrag und erteilt keine echte Freigabe. Echte Registrierung und geschützter APK-Download benötigen das bestehende Serverportal.
 
 Die Webseite ist weiterhin nicht auf einer öffentlichen Domain bereitgestellt.
+
+## Sichtbarer Einstieg – Korrektur in V6
+
+Die V5-Einzeldatei begann oben beim bisherigen Header und Porträt. In V6 öffnet die ausgelieferte Einzeldatei unmittelbar beim aktualisierten Über-mich-Bereich. Die 37 bearbeiteten PNGs waren bereits in V5 vorhanden; sie werden nicht erneut verändert. `--start-anchor` steuert nur den ersten Einstieg ohne ausdrücklichen Hash-Link. Der Anker muss auf der gewählten Startseite existieren. Ohne diese Option bleibt der normale Einstieg erhalten.
+
+Im V5-ZIP lagen die sechs Seiten nur unter `webseite/`. Beim Entpacken über einen älteren Ordner mit `index.html` im Hauptordner konnte diese alte Datei deshalb bestehen bleiben. V6 enthält die sechs früheren Seitennamen auch direkt im Hauptordner als Weiterleitungen zu den aktuellen Seiten. Damit wird dieser bisherige Einstieg beim Ersetzen gleichnamiger Dateien aktualisiert. Die tatsächlichen Seiten und ihre Medien liegen weiterhin vollständig unter `webseite/`.
+
+Der lokal auf einem anderen Computer entpackte Webseitenordner wird durch einen neuen Download nicht automatisch ersetzt. Die neue Einzeldatei öffnen oder das neue ZIP entpacken und bei einem Update die gleichnamigen Dateien ersetzen.

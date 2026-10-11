@@ -1,6 +1,6 @@
 # Crazy_Batto – Übergabe für den nächsten Chat
 
-**Stand: 11. Oktober 2026 · Version 5.** Die beiden Fotopakete sind übernommen; Mausgalerie, Hardware-Sammlung und die aktualisierten Setupfotos sind eingebaut. Diese Übergabe dient dazu, das bestehende Webseitenprojekt im nächsten Chat ohne Verlust von Dateien, Inhalten oder Entscheidungen fortzuführen.
+**Stand: 11. Oktober 2026 · Version 6.** Die beiden Fotopakete sind übernommen; Mausgalerie, Hardware-Sammlung und die aktualisierten Setupfotos sind eingebaut. Die Einzeldatei und die kompatiblen Startdateien zeigen den neuen Mausbereich unmittelbar beim Öffnen. Diese Übergabe dient dazu, das bestehende Webseitenprojekt im nächsten Chat ohne Verlust von Dateien, Inhalten oder Entscheidungen fortzuführen.
 
 ## 1. Ziel und aktueller Stand
 
@@ -357,3 +357,13 @@ Die aktuelle Einzeldatei heißt `Crazy_Batto-Webseite-V5.html` und startet auf d
 Der Serverexport enthält die gleichen Bildbytes über 60 explizite Assetrouten einschließlich CSS/JS. Alte ersetzte Fotos müssen auch aus bestehenden Exportzielordnern entfernt werden: `export_server.py` kopiert und überschreibt, löscht aber keine früheren Dateien. Die Serverprüfung gleicht die tatsächlich verwendeten Medien mit dem Paket ab.
 
 Die Fragmentvorschau liest Foto-Pfade aus den aktuellen Vorlagen. Separate alte Foto-WebPs wurden entfernt, damit die Vorschau keine früheren Bildstände verwenden kann. Das unbeauftragte Batto-OBS-Tool-Release bleibt gesperrt; alle bisherigen Hinweise zu CNG, RGB, iCUE und virtueller Strimer-Demo gelten unverändert. Offline-Registrierung bleibt ausdrücklich eine Demo.
+
+## 13. Sichtbarer Einstieg – Version 6
+
+Der Nutzer meldete, dass sich nichts geändert habe. Die aus der Dateiablage erneut abgerufenen V5-HTML- und ZIP-Dateien stimmen bytegenau mit den ausgelieferten Versionen überein und enthalten die 37 neuen PNGs samt Mausgalerie. Welche Datei beim Nutzer geöffnet war, ist nicht geklärt. Die V5-Einzeldatei begann oben beim unveränderten Header und Porträt; die neue Fassung startet deshalb unmittelbar bei `cb-ueber-mich`. Dies behebt die fehlende Sichtbarkeit der Änderungen beim ersten Einstieg, ohne eine bestimmte Ursache auf dem Nutzer-PC zu behaupten.
+
+Neue Exportoption: `--start-anchor ID`. Der Generator erlaubt nur einen vorhandenen Anker auf `--start-page`. Die Offline-Routen verwenden ihn nur bei leerem Hash; ausdrückliche Links, einschließlich `#home`, sowie die Fallbacks für ungültige Routen behalten ihr bisheriges Verhalten. Normale Mehrseitenfassung und Fotos bleiben unverändert. Der Export heißt `Crazy_Batto-Webseite-NEUE-BILDER.html`; das Paket `Crazy_Batto-Webseite-NEUE-BILDER.zip`.
+
+Der ZIP-Einstieg `00-STARTEN.html` und die neue kompatible Root-Datei `index.html` führen nach `webseite/index.html#cb-ueber-mich`. Im direkten Download startet die neue Mausansicht ebenfalls ohne zusätzlichen Klick auf einen Menüpunkt.
+
+Zusätzlich wurde eine konkrete Lücke im V5-Paketaufbau festgestellt: Es enthielt keine der sechs bisherigen HTML-Seiten im Hauptordner, nur die neuen Dateien im Unterordner `webseite/`. Beim Entpacken über einen alten Ordner blieb dessen Root-Datei `index.html` dadurch unangetastet. Ob dies beim Nutzer tatsächlich die Ursache war, ist unbekannt. V6 liefert deshalb alle sechs bisherigen Seitennamen im Hauptordner als lokale HTML-Weiterleitungen mit anklickbarem Ersatzlink mit. Jede führt auf die entsprechende aktuelle Seite unter `webseite/`; `index.html` öffnet den Über-mich-Anker. Gleichnamige Dateien müssen beim Aktualisieren eines bestehenden Ordners ersetzt werden. Diese Startdateien gehören auch zur Git-Sicherung.

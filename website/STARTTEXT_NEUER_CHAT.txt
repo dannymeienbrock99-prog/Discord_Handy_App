@@ -1,4 +1,4 @@
-Ich möchte mein Webseitenprojekt Crazy_Batto auf dem aktuellen Stand V5 fortsetzen.
+Ich möchte mein Webseitenprojekt Crazy_Batto auf dem aktuellen Stand V6 fortsetzen.
 Bitte das ZIP vollständig entpacken und zuerst START_HIER.md, UEBERGABE_NEUER_CHAT.md
 sowie BILDZUORDNUNG_WEBSEITE.csv lesen.
 
@@ -18,3 +18,8 @@ Die Offline-Registrierung ist eine ausdrücklich beschriftete Demo.
 
 Auf diesem bestehenden Stand weiterarbeiten. Den nächsten Änderungswunsch
 nenne ich in meiner folgenden Nachricht.
+
+Die Einzeldatei öffnet direkt beim Über-mich-Bereich über --start-anchor cb-ueber-mich.
+Die sechs Startdateien im ZIP-Hauptordner führen auf die aktuellen Seiten in
+webseite/. index.html und 00-STARTEN.html öffnen direkt den Mausbereich.
+Diese Kompatibilität für frühere Webseitenordner beim nächsten Export beibehalten.

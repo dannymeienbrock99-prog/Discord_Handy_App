@@ -1,6 +1,6 @@
 # Crazy_Batto – Webseite
 
-Aktueller Stand: 10. Oktober 2026. Schwarzer Marmor mit Goldadern,
+Aktueller Stand: 11. Oktober 2026 · Version 6. Schwarzer Marmor mit Goldadern,
 anthrazitfarbene Flächen und helle Schrift.
 
 ## Enthaltene Seiten
@@ -20,14 +20,19 @@ Aus dem Repository-Hauptordner:
 python3 website/quellcode/build.py
 ```
 
-Anschließend `website/webseite/index.html` im Browser öffnen. Alle Dateien
-und der Medienordner bleiben zusammen. Die Anmeldung zeigt offline ausdrücklich
+Anschließend `website/index.html` oder `website/00-STARTEN.html` im Browser öffnen.
+Beide Einstiege zeigen direkt den Über-mich-Bereich mit der Mausgalerie.
+`website/webseite/index.html` öffnet die Startseite ganz oben. Die sechs
+HTML-Startdateien im Ordner `website` leiten auf die aktuellen Seiten unter
+`webseite/` weiter. Beim Entpacken eines neuen Offline-ZIPs über einen bisherigen
+Webseitenordner gleichnamige Dateien ersetzen, damit der bisherige Einstieg
+aktualisiert wird. Alle Dateien und der Medienordner bleiben zusammen. Die Anmeldung zeigt offline ausdrücklich
 bezeichnete Beispielansichten und sendet keine Anfragen.
 
 Eine einzelne vollständige Offline-Datei mit allen Originalmedien erzeugen:
 
 ```bash
-python3 website/quellcode/offline/generate_offline_html.py --output Crazy_Batto-Offline.html
+python3 website/quellcode/offline/generate_offline_html.py --output Crazy_Batto-Webseite-NEUE-BILDER.html --start-page home --start-anchor cb-ueber-mich
 ```
 
 Das Header-GIF wird beim normalen Build bei Bedarf aus den SHA-256-geprüften

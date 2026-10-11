@@ -1,0 +1,28 @@
+CRAZY_BATTO – WEBSEITE V6
+Stand: 11. Oktober 2026
+
+1. Dieses ZIP vollständig entpacken.
+   Bei einem Update im bisherigen Ordner gleichnamige Dateien ersetzen.
+2. index.html oder 00-STARTEN.html direkt im Hauptordner doppelt anklicken.
+   Die Webseite öffnet direkt beim Über-mich-Bereich mit der Mausgalerie.
+   Für die Startseite ganz oben: webseite/index.html öffnen.
+
+Alle Seiten, Bilder und Unterordner zusammenlassen.
+Die Seite funktioniert ohne Server und ohne Internetverbindung.
+Die Registrierung ist lokal eine deutlich bezeichnete Beispielansicht.
+
+Die sechs HTML-Dateien im Hauptordner sind Startdateien. Sie führen zu den
+aktuellen Seiten unter webseite/. Damit öffnet auch der bisherige Einstieg
+über index.html nach dem Ersetzen der Dateien die aktualisierte Webseite.
+Die separate Datei Crazy_Batto-Webseite-NEUE-BILDER.html enthält die gesamte
+Webseite und alle Bilder; sie kann ohne Entpacken geöffnet werden.
+
+BEARBEITEN
+Die vollständigen Webseitenquellen liegen in quellcode/.
+Die Bildzuordnung steht in BILDZUORDNUNG_WEBSEITE.csv.
+Vor der Weiterarbeit START_HIER.md und UEBERGABE_NEUER_CHAT.md lesen.
+
+ENTHALTENE ÄNDERUNGEN
+37 fertig bearbeitete PNGs: Maus, Hardware-Sammlung und Setupfotos.
+Die doppelte Aufnahme des weißen PC-Aufbaus erscheint einmal.
+Maus-Screenshot mit Handy-Bedienoberfläche wird nicht auf der Webseite gezeigt.

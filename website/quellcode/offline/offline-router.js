@@ -14,10 +14,11 @@
   };
   const startPage = Object.prototype.hasOwnProperty.call(titles, root.dataset.startPage)
     ? root.dataset.startPage : 'home';
+  const startAnchor = root.dataset.startAnchor || '';
 
   function readRoute() {
     const rawRoute = window.location.hash.slice(1);
-    if (!rawRoute) return { name: startPage, anchor: '' };
+    if (!rawRoute) return { name: startPage, anchor: startAnchor };
     let route;
     try { route = decodeURIComponent(rawRoute); }
     catch (_) { route = ''; }
@@ -52,5 +53,5 @@
     });
   });
   window.addEventListener('hashchange', () => renderRoute(true));
-  renderRoute(Boolean(window.location.hash));
+  renderRoute(Boolean(window.location.hash || startAnchor));
 })();

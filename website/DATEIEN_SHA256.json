@@ -1,32 +1,47 @@
 {
   "project": "Crazy_Batto-Webseite",
   "stand": "2026-10-11",
-  "version": "V5",
+  "version": "V6",
   "files": [
+    {
+      "path": "00-STARTEN.html",
+      "bytes": 820,
+      "sha256": "2b1a607dc17571b81ae56ffaacf529960331f4c9581b844ec8a1e04731e50ace"
+    },
     {
       "path": "BILDZUORDNUNG_WEBSEITE.csv",
       "bytes": 7597,
       "sha256": "d34fb2abfbb5507bd9766d2ab3f1948098e5bc671fee74e3d91a976697bc56b6"
     },
     {
+      "path": "LIESMICH.txt",
+      "bytes": 1371,
+      "sha256": "33725123c2b2c41115bb1d5c7b43a720811118ce2360042cb8a1824d5257bc0f"
+    },
+    {
       "path": "README.md",
-      "bytes": 2703,
-      "sha256": "904021c01088e3c4b28169d925f5fc1f98632441151fbc1f78bbd013e98f4c3a"
+      "bytes": 3200,
+      "sha256": "d77b259c284cbd390ce9352f74ad2c25a93effd5d1bb26312a8e19db9fd9addb"
     },
     {
       "path": "STARTTEXT_NEUER_CHAT.txt",
-      "bytes": 1224,
-      "sha256": "2930cbbe8f5ba60ec94da0578ac85e0e4e30f09f1a3a3fda9b05ef9be3c16ee4"
+      "bytes": 1555,
+      "sha256": "00c2bfa3e38b3adc854e6ad17581ebe03c0c3af85905c9dafb0a711af8699457"
     },
     {
       "path": "START_HIER.md",
-      "bytes": 3560,
-      "sha256": "c89fe5df33bd9e8fd432b4e3704ee19655a599d58aa471e98b15ed0a54a627d9"
+      "bytes": 5340,
+      "sha256": "0835842950e0b3ce7a6d71458afe33bc0385509f8b740beeeac325d68978cb9a"
     },
     {
       "path": "UEBERGABE_NEUER_CHAT.md",
-      "bytes": 25361,
-      "sha256": "b02a959a6f9575ad8df8726db22474d3b790f6caf1c59f1a7bbc6c489d1e772a"
+      "bytes": 27510,
+      "sha256": "e0957ec6f959b966ba9f72c8e0287014635ae7b7c462e009c1304ab57d31b87d"
+    },
+    {
+      "path": "altes-setup.html",
+      "bytes": 786,
+      "sha256": "41df378a39b2f55bda537b6710c93e782f58e8db6fc3503a769dfa1876ebc9b7"
     },
     {
       "path": "arbeitsmaterial/vorschau/01-1000157322.webp",
@@ -89,9 +104,24 @@
       "sha256": "3d4c15552b055e8b4cdd9f7124924a60179cbce68a4eb5aac031db393adb61c8"
     },
     {
+      "path": "discord-app.html",
+      "bytes": 800,
+      "sha256": "96c199295c21b70753bda51ac304825aafce3182b8ace0bfc22cacff1e5e843d"
+    },
+    {
+      "path": "gaming-setup.html",
+      "bytes": 790,
+      "sha256": "8878cdf2f653a546301a15cf5bae2e260b467a2a18dea53ab1e8579f301974a3"
+    },
+    {
+      "path": "index.html",
+      "bytes": 820,
+      "sha256": "2b1a607dc17571b81ae56ffaacf529960331f4c9581b844ec8a1e04731e50ace"
+    },
+    {
       "path": "quellcode/LIESMICH.txt",
       "bytes": 5112,
-      "sha256": "87ca70e2298c93115ca2b75315691716c47ca75c52397ed2e30ee4e6a5deb764"
+      "sha256": "f4d8f8d04d3317bc20983f313ab278de254721e3210e6c68ac47ec9e4a00fb27"
     },
     {
       "path": "quellcode/banner.html",
@@ -165,8 +195,8 @@
     },
     {
       "path": "quellcode/offline/generate_offline_html.py",
-      "bytes": 12883,
-      "sha256": "8ba8ab813dd3c0c11fd07f70c5f286cbc7922e9fdb1aeab4ecf858f5489f87cc"
+      "bytes": 13700,
+      "sha256": "9ec5d02c63864ef186cc9d00b23a5382497a3136c83e5a7a084ca70c9522fa10"
     },
     {
       "path": "quellcode/offline/offline-bootstrap.js",
@@ -175,8 +205,8 @@
     },
     {
       "path": "quellcode/offline/offline-router.js",
-      "bytes": 2363,
-      "sha256": "2e2916e426fc9a665361745db7da90b07871aaae394562299f195e183af5f2ad"
+      "bytes": 2441,
+      "sha256": "0b09cf2799e6da1c2f96ba398c5650da0f7360f5d98d6c0951b257390652e29c"
     },
     {
       "path": "quellcode/old-history.html",
@@ -234,6 +264,16 @@
       "sha256": "b5bd034953e8563e5894ae06caf1acd696b4e9362f6b5b812f3674c4591570c6"
     },
     {
+      "path": "registrierung.html",
+      "bytes": 784,
+      "sha256": "ce07c8a17cc7663455a57fadd1cd854f37f162ef8ca5b862bdbcaefc80aec4fd"
+    },
+    {
+      "path": "software.html",
+      "bytes": 776,
+      "sha256": "e0a489bcf77062bf48bd8cf7e6011438c47f05eb74f565d06590459bdb9fb083"
+    },
+    {
       "path": "tests/registration-smoke.mjs",
       "bytes": 10455,
       "sha256": "81341e705194a4ae9c9a3255bc2af138c9337b12e96c018b791aaa233b95a596"
@@ -241,7 +281,7 @@
     {
       "path": "webseite/LIESMICH.txt",
       "bytes": 5112,
-      "sha256": "87ca70e2298c93115ca2b75315691716c47ca75c52397ed2e30ee4e6a5deb764"
+      "sha256": "f4d8f8d04d3317bc20983f313ab278de254721e3210e6c68ac47ec9e4a00fb27"
     },
     {
       "path": "webseite/altes-setup.html",
