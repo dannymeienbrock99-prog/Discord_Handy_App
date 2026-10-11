@@ -1,4 +1,4 @@
-CRAZY_BATTO – WEBSEITE V5 · 11. OKTOBER 2026
+CRAZY_BATTO – WEBSEITENENTWURF
 Schwarzer Marmor · Anthrazit · Gold
 
 ÖFFNEN
@@ -9,16 +9,15 @@ Die Webseite funktioniert lokal; ein Server oder eine Installation ist nicht nö
 SECHS SEITEN
 index.html
 Startseite mit animiertem Header, Drachenlogo, Porträt, Kurzvorstellung,
-»Über mich« mit einer Mausgalerie, deiner Hardware-Sammlung mit 15 Fotos
-und Verweisen auf die Setup- und Software-Seiten.
+»Über mich«, deiner ASUS-ROG-Sammlung und Verweisen auf die Setup- und Software-Seiten.
 
 altes-setup.html
 »Mein altes Setup – So habe ich angefangen«: die Setup-Geschichte ab 2022,
-drei bearbeitete Hauptfotos, fünf weitere Aufnahmen, erste Komponenten und Umbauten.
+drei Originalfotos, erste Komponenten und die Umbauten an CPU-/GPU-Kühlung.
 
 gaming-setup.html
 »Mein Gaming-Setup«: dein gesamter Gaming-Platz als Titelbild, eine Galerie
-mit zehn auswählbaren Fotos und die gesamte von dir genannte Ausstattung.
+mit elf auswählbaren Originalfotos und die gesamte von dir genannte Ausstattung.
 
 software.html
 »Software – Batto OBS Tool«: Projekt 01 mit kurzer persönlicher Vorstellung,
@@ -53,7 +52,7 @@ Die Einleitung unter Über mich verwendet die gewünschte Formulierung:
 GESTALTUNG
 Dunkler Marmor mit natürlichen Goldadern, anthrazitfarbene Inhaltsflächen,
 helle Schrift und warme goldene Akzente.
-Logo und Navigation auf allen sechs Seiten.
+Logo und Navigation auf allen vier Seiten.
 Responsive Gestaltung für kleine und große Bildschirme.
 Der Header auf der Startseite ist ein echtes GIF in Endlosschleife.
 »Animation pausieren« blendet ein Standbild ein; »Animation abspielen«
@@ -77,16 +76,14 @@ Die unterschiedlichen Bezeichnungen O11 Dynamic beim Gehäuse und
 O11 Dynamic EVO RGB beim SK-Crosscool III sind wie angegeben erhalten.
 
 FOTOS
-37 fertig bearbeitete PNGs aus deinen beiden Fotopaketen sind unverändert eingebaut.
-Die Maus steht bei »Persönliche Vorstellung & Ausstattung« in einer eigenen
-Galerie. Die Sammlung aus Grafikkarten und Mainboards folgt darunter.
-Das Gaming-Titelbild ist 16_Ganzes-Setup_bearbeitet.png.
-»Vom Aufbau bis zur Wasserkühlung« beginnt mit PNG 23, dem Aufbau ohne Kühlrohre.
-Die doppelte Aufnahme des Aufbaus wird nur einmal gezeigt. Unterschiedliche
-Perspektiven bleiben erhalten. Der Maus-Screenshot mit Handy-Bedienoberfläche
-ist als normales Webseitenfoto ausgeschlossen.
-Die sieben vorhandenen Gamingfotos ohne fertige Ersatzbearbeitung bleiben erhalten.
-Die vollständige Zuordnung steht in BILDZUORDNUNG_WEBSEITE.csv im Projektordner.
+Dein Logo, dein Porträt sowie sämtliche alten und neuen Setup-Fotos liegen
+unverändert im Ordner assets. Die Galerie zeigt die Fotos vollständig.
+Die Dateinamen gaming-1 bis gaming-5 und gaming-7 bis gaming-9 entsprechen
+deinen Uploads; ein Foto mit der Nummer 6 wurde nicht mitgeliefert.
+Das Titelbild gaming-setup-gesamt.jpeg zeigt deinen gesamten Gaming-Platz.
+Die weiteren neuen Fotos zeigen den Aufbau mit Radiatoren und Lüftern,
+deine beleuchteten Slotblenden und die Wasserkühlung von vorne.
+Identische Uploads erscheinen jeweils einmal in der Galerie.
 
 SOFTWARE-SCREENSHOTS
 Die acht Programmbilder liegen unverändert in assets/software-*.jpg.

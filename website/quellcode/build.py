@@ -1,5 +1,4 @@
 from pathlib import Path
-from html.parser import HTMLParser
 import argparse
 import base64
 import json
@@ -74,30 +73,19 @@ preview_assets = {
     'portrait': (PREVIEW / 'portrait.webp', 'image/webp'),
     'poster': (SITE / 'assets/header-poster.webp', 'image/webp'),
     'motion': (PREVIEW / 'motion.mp4', 'video/mp4'),
-    'discordApp': (SITE / 'assets/discord-app.png', 'image/png')
+    'oldstart': (PREVIEW / 'oldstart.webp', 'image/webp'),
+    'oldsetup': (PREVIEW / 'oldsetup.webp', 'image/webp'),
+    'oldkraken': (PREVIEW / 'oldkraken.webp', 'image/webp'),
+    'discordApp': (SITE / 'assets/discord-app.png', 'image/png'),
+    'gamingRoom': (SITE / 'assets/gaming-setup-gesamt.jpeg', 'image/jpeg'),
+    'gamingBuild': (SITE / 'assets/gaming-aufbau-radiatoren.jpg', 'image/jpeg'),
+    'gamingSlotcovers': (SITE / 'assets/gaming-rgb-slotcover.jpeg', 'image/jpeg'),
+    'gamingCoolingFront': (SITE / 'assets/gaming-wasserkuehlung-front.jpg', 'image/jpeg')
 }
+for number in [1,2,3,4,5,7,8,9]:
+    preview_assets['gaming' + str(number)] = (PREVIEW / ('gaming' + str(number) + '.webp'), 'image/webp')
 for key, (uploaded, _) in software_assets.items():
     preview_assets[key] = (PREVIEW / (uploaded + '.webp'), 'image/webp')
-
-# Photo replacements use the same files in every export. Reading the paths from
-# the templates prevents an older preview copy from surviving a photo change.
-class PhotoAssetParser(HTMLParser):
-    def handle_starttag(self, tag, attrs):
-        attributes = dict(attrs)
-        key = attributes.get('data-asset')
-        if tag != 'img' or not key:
-            return
-        src = attributes.get('src', '')
-        if not src.startswith('assets/'):
-            raise ValueError('Bild ohne lokalen Medienpfad: ' + str(key))
-        if key not in preview_assets:
-            path = SITE / src
-            mime = {'.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.webp': 'image/webp'}[path.suffix.lower()]
-            preview_assets[key] = (path, mime)
-
-photo_parser = PhotoAssetParser()
-for content in pages.values():
-    photo_parser.feed(content)
 assets_json = json.dumps({key: data_uri(path, mime) for key, (path, mime) in preview_assets.items()}, ensure_ascii=False, separators=(',', ':'))
 assets_element = read('inline-assets.html').replace('__ASSETS_JSON__', assets_json)
 preview_banner = re.sub(r'<img data-header-motion[^>]+>', '<video data-header-motion data-asset="motion" width="600" height="200" autoplay loop muted playsinline preload="auto" aria-label="Animierter Crazy_Batto-Header"></video>', banner)

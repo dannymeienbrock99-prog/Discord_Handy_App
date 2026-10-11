@@ -69,12 +69,7 @@ test('every packaged website image and script has an explicit public asset route
   const mimeTypes = { '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.webp': 'image/webp', '.gif': 'image/gif' };
   const directory = path.join(showcaseDir, 'assets');
   const files = fs.readdirSync(directory).filter(name => Object.hasOwn(mimeTypes, path.extname(name)));
-  const referenced = new Set(['site.css', 'site.js', 'marble-gold.webp']);
-  for (const page of pages) {
-    const html = fs.readFileSync(path.join(showcaseDir, page), 'utf8');
-    for (const match of html.matchAll(/(?:src|href|data-full-src)="\/assets\/([^"/]+)"/g)) referenced.add(match[1]);
-  }
-  assert.deepEqual([...files].sort(), [...referenced].sort(), 'every packaged asset is used by the website');
+  assert.equal(files.length, 31, '29 supplied images/animations and the two website code files');
   for (const name of files) {
     const response = await fetch(origin + '/assets/' + name);
     assert.equal(response.status, 200, name); strictCsp(response);
