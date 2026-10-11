@@ -1,38 +1,66 @@
-# Crazy_Batto – bestehende Webseite mit ausgetauschten Bildern
+# Crazy_Batto – Webseite V5
 
-Stand: 11. Oktober 2026 · Version 7.
+**Stand: 11. Oktober 2026.** Weiterarbeit auf der bestehenden Webseite mit sechs Seiten, überarbeiteten Fotozuordnungen und dem unveränderten Design aus schwarzem Marmor, Gold und Anthrazit.
 
-## Ansehen
+## Sofort ansehen
 
-Das ZIP vollständig entpacken und `index.html` oder `00-STARTEN.html` im Hauptordner öffnen. Beide führen zur normalen Startseite in `webseite/`. Beim Aktualisieren eines bisherigen Ordners gleichnamige Dateien ersetzen. Alle Seiten und Medien zusammenlassen.
+Das ZIP vollständig entpacken und **`00-STARTEN.html`** öffnen. Dieser Einstieg zeigt direkt den aktualisierten Über-mich-Bereich mit der Maus. **`webseite/index.html`** öffnet die Startseite ganz oben. Die Dateien und der Medienordner müssen zusammenbleiben. Eine Installation und ein Server sind für die Vorschau nicht nötig.
 
-Die separate `Crazy_Batto-Webseite-NEUE-BILDER.html` enthält dieselben sechs Seiten und alle eingebundenen Medien in einer Datei. Sie beginnt regulär oben auf der Startseite.
+Die separate **`Crazy_Batto-Webseite-V5.html`** enthält dieselbe Webseite samt allen Bildern in einer Datei. Sie startet auf der Startseite.
 
-## Maßgeblicher Auftrag
+## Vor dem Bearbeiten lesen
 
-Die bestehende Webseite bleibt die Grundlage. Sieben vorhandene Fotos wurden an ihren bisherigen Bildplätzen durch die passenden fertigen Bearbeitungen ersetzt. Der doppelte PC-Aufbau ist einmal enthalten. Die ausdrücklich gewünschte Maus steht als einzelnes Bild im vorhandenen Abschnitt „Persönliche Vorstellung & Ausstattung“ vor dem Text.
+1. `UEBERGABE_NEUER_CHAT.md`: Inhalte, Entscheidungen, Bildplatzierung und Grenzen der Softwarevorstellung.
+2. `BILDZUORDNUNG_WEBSEITE.csv`: alle 38 gelieferten Bildbearbeitungen, Herkunft und Verwendung; davon 37 eingebaut.
 
-Die in V5 zusätzlich angelegten Maus-, Sammlungs- und alten Setupgalerien sowie deren neue Überschriften und Beschreibungen sind zurückgenommen. Gaming- und Softwaregalerie bleiben in ihrer bisherigen Anordnung; die Gaming-Galerie hat nach der Dublettenbereinigung zehn Bilder. Der automatische Sprung zum Mausbereich aus V6 ist entfernt.
+| Ordner / Datei | Inhalt |
+| --- | --- |
+| `webseite/` | Sechs fertige Seiten, Medien, gemeinsame Gestaltung und JavaScript |
+| `quellcode/` | Bearbeitbare Vorlagen und portable Build-/Exportskripte |
+| `arbeitsmaterial/vorschau/` | Ergänzende Vorschauhilfen für Logo, Porträt, Software, Marmor und Header |
+| `BILDZUORDNUNG_WEBSEITE.csv` | Bildzuordnung einschließlich des nicht eingebauten Handy-Screenshots |
+| `DATEIEN_SHA256.json` | Prüfsummen der im Paket enthaltenen Dateien |
 
-`BILDZUORDNUNG_WEBSEITE.csv` dokumentiert, welche fertigen Fotos verwendet wurden. Weitere gelieferte Fotos bleiben Material in ihren ursprünglichen Fotopaketen; daraus wurden keine neuen öffentlichen Bereiche angelegt.
+Zusätzliches hochauflösendes Header-Arbeitsmaterial kann im größeren Arbeitsarchiv vorhanden sein. Für dieses Webseitenpaket werden das bereits enthaltene Web-GIF und seine Vorschau verwendet.
 
-## Weiterarbeiten
+## Projekt bauen
 
-Zuerst `UEBERGABE_NEUER_CHAT.md` und die Bildzuordnung lesen. Die Vorlagen liegen in `quellcode/`, die fertige Webseite in `webseite/`, die Vorschauhilfen in `arbeitsmaterial/vorschau/`.
+Im entpackten Projektordner:
 
 ```bash
 python3 quellcode/build.py
-python3 quellcode/offline/generate_offline_html.py --output Crazy_Batto-Webseite-NEUE-BILDER.html
 ```
 
-Der Build benötigt Python 3 mit Standardbibliothek. Zum Ansehen wird keine Installation benötigt. Bilddateien werden beim Export nicht erneut bearbeitet.
+Unter Windows gegebenenfalls `python` oder `py -3` verwenden. Nur Python 3 mit Standardbibliothek wird benötigt; zum Ansehen der Webseite wird Python nicht benötigt. Der Build schreibt nach `webseite/`. Fotos werden nicht erneut bearbeitet.
 
-Die ausdrückliche Serverfassung erzeugen:
+### Einzelne Offline-HTML
+
+```bash
+python3 quellcode/offline/generate_offline_html.py --output Crazy_Batto-Webseite-V5.html
+```
+
+Optional startet `--start-page gaming` direkt beim Gaming-Setup. Ohne die Option beginnt die Datei auf der Startseite.
+
+### Ergänzende Fragmentvorschau
+
+```bash
+python3 quellcode/build.py --preview-output vorschau-fragment.html
+```
+
+Die Foto-Pfade werden aus den aktuellen Vorlagen übernommen. Die unveränderten PNGs sind groß; die Vorschau ist daher nicht auf eine kleine Dateigröße optimiert.
+
+### Serverfassung
 
 ```bash
 python3 quellcode/export_server.py --server-public /pfad/zum/Discord_Handy_App/server/public/showcase
 ```
 
-Für den Server gelten die vorhandenen Portal-APIs und die persönlichen Freigabeprüfungen. Das Offline-Paket zeigt die Registrierung als Beispielansicht.
+Nur dieser ausdrückliche Export schaltet die vorhandenen Portalaufrufe ein. Das Backend benötigt die passenden expliziten Bildrouten. Bereits ersetzte Fotos in einem alten Exportziel müssen gezielt entfernt werden; der Export löscht keine vorhandenen Dateien.
 
-Batto OBS Tool ist noch nicht freigegeben. Es bleibt bei den vereinbarten ausgewählten Einblicken ohne Programm-Download, Release-Datum oder vollständige Funktionsliste. Die Hinweise zu CNG, RGB, iCUE und virtueller Strimer-Demo gelten unverändert.
+## Inhaltliche Grenzen
+
+Batto OBS Tool ist **noch nicht freigegeben**: kein Programm-Download, kein Release-Datum, nur ausgewählte Funktionen. CNG steht aus. Die Hinweise zu RGB-Vorschau, iCUE-Lüftersteuerung und virtueller Strimer-Demo bleiben bestehen.
+
+Discord-App und Registrierung sind enthalten. Die lokale Webseite zeigt ausdrücklich eine **Offline-Demo**: Sie meldet niemanden bei Discord an, sendet keinen Antrag und erteilt keine echte Freigabe. Echte Registrierung und geschützter APK-Download benötigen das bestehende Serverportal.
+
+Die Webseite ist weiterhin nicht auf einer öffentlichen Domain bereitgestellt.

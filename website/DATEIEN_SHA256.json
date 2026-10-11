@@ -1,47 +1,32 @@
 {
   "project": "Crazy_Batto-Webseite",
   "stand": "2026-10-11",
-  "version": "V7",
+  "version": "V5",
   "files": [
     {
-      "path": "00-STARTEN.html",
-      "bytes": 762,
-      "sha256": "ad7b0fda532972d21ea3afdaefba639d130741c663df8cae558c78113dd38668"
-    },
-    {
       "path": "BILDZUORDNUNG_WEBSEITE.csv",
-      "bytes": 8901,
-      "sha256": "59e73ed9498503efab96af344e698d7a9957ad2448ea88e3b83b4718b51a11f9"
-    },
-    {
-      "path": "LIESMICH.txt",
-      "bytes": 964,
-      "sha256": "918db3225cd0fc2919303f086ef8918b0779f9d193b68a57766a3bc2956da076"
+      "bytes": 7597,
+      "sha256": "d34fb2abfbb5507bd9766d2ab3f1948098e5bc671fee74e3d91a976697bc56b6"
     },
     {
       "path": "README.md",
-      "bytes": 3286,
-      "sha256": "cb25f1bb8c945263adcb567d8e585981c0a48b418bebb0029d1d3a426d9c87a4"
+      "bytes": 2703,
+      "sha256": "904021c01088e3c4b28169d925f5fc1f98632441151fbc1f78bbd013e98f4c3a"
     },
     {
       "path": "STARTTEXT_NEUER_CHAT.txt",
-      "bytes": 1074,
-      "sha256": "aba6f9332faa1903988ee886134ee100fd46bcbbf1654cf33d8d21ff121b9a22"
+      "bytes": 1224,
+      "sha256": "2930cbbe8f5ba60ec94da0578ac85e0e4e30f09f1a3a3fda9b05ef9be3c16ee4"
     },
     {
       "path": "START_HIER.md",
-      "bytes": 2573,
-      "sha256": "dc8f24a2327fe495dbc88853365fd90595216632b674bdb0beb03753ddf769c4"
+      "bytes": 3560,
+      "sha256": "c89fe5df33bd9e8fd432b4e3704ee19655a599d58aa471e98b15ed0a54a627d9"
     },
     {
       "path": "UEBERGABE_NEUER_CHAT.md",
-      "bytes": 23103,
-      "sha256": "0795c105389493356ad083d84d6d548aac6c7ee0d9d932cdad7bf1d9f7bdaf98"
-    },
-    {
-      "path": "altes-setup.html",
-      "bytes": 786,
-      "sha256": "fae81bcb9066b275a7f46313862d80779c17fe85cfd98bd123270866d272d863"
+      "bytes": 25361,
+      "sha256": "b02a959a6f9575ad8df8726db22474d3b790f6caf1c59f1a7bbc6c489d1e772a"
     },
     {
       "path": "arbeitsmaterial/vorschau/01-1000157322.webp",
@@ -104,24 +89,9 @@
       "sha256": "3d4c15552b055e8b4cdd9f7124924a60179cbce68a4eb5aac031db393adb61c8"
     },
     {
-      "path": "discord-app.html",
-      "bytes": 800,
-      "sha256": "7edabef883c12ac49edb61cc49e43af7aabb7887799b5dec4592cc15029f3d2c"
-    },
-    {
-      "path": "gaming-setup.html",
-      "bytes": 790,
-      "sha256": "36f5628a8cbb0e26e283835c3325d5969bc7e719ce038b799155479942875100"
-    },
-    {
-      "path": "index.html",
-      "bytes": 762,
-      "sha256": "ad7b0fda532972d21ea3afdaefba639d130741c663df8cae558c78113dd38668"
-    },
-    {
       "path": "quellcode/LIESMICH.txt",
-      "bytes": 4845,
-      "sha256": "f54ce0ba344356239378eace1ce6fcf66537cea8d03fc01cf2a7df523d5114e4"
+      "bytes": 5112,
+      "sha256": "87ca70e2298c93115ca2b75315691716c47ca75c52397ed2e30ee4e6a5deb764"
     },
     {
       "path": "quellcode/banner.html",
@@ -155,8 +125,8 @@
     },
     {
       "path": "quellcode/gallery.html",
-      "bytes": 5100,
-      "sha256": "485119c4e2e0bc180a10acdbb3d42fd6054d14ab8ff1d0a1a0cfc8671b877e79"
+      "bytes": 5228,
+      "sha256": "8e03bff792966450ee65dab7d53bb7421185cec112faabc42e4df3b906d51bb9"
     },
     {
       "path": "quellcode/gaming-intro.html",
@@ -175,8 +145,8 @@
     },
     {
       "path": "quellcode/home.html",
-      "bytes": 6722,
-      "sha256": "748c7baa5c54777e98330c12e4c97e221f6ef877fa3b762b55155129f1fd5f4f"
+      "bytes": 19661,
+      "sha256": "ec463107edd97a4d91d21da5eba85840196c36bf0b7f7ca1a13ad0cec4f3084a"
     },
     {
       "path": "quellcode/inline-assets.html",
@@ -210,8 +180,8 @@
     },
     {
       "path": "quellcode/old-history.html",
-      "bytes": 2839,
-      "sha256": "d3d2609704ba4cadbbed65736baff7d75694873a142c038fa8b8d0723be8aac9"
+      "bytes": 2820,
+      "sha256": "2e5acbc520c80c433c85bda015d1069bf3fabe9c4b7779b0f9fb12ff9ec81946"
     },
     {
       "path": "quellcode/old-intro.html",
@@ -220,8 +190,8 @@
     },
     {
       "path": "quellcode/old.html",
-      "bytes": 559,
-      "sha256": "0ef830d186780eda235fc98166b2a5edd347c86b90351fb3c5cd2383415c19d4"
+      "bytes": 3802,
+      "sha256": "b759fce89c56fda0f29a0947eaeba50d61cc51d68d99bd7cd83ee0ffd770ea80"
     },
     {
       "path": "quellcode/registration.css",
@@ -260,18 +230,8 @@
     },
     {
       "path": "quellcode/style.css",
-      "bytes": 18438,
-      "sha256": "82217cf7fc269772b37e8885ef185b1458d542b3137381d690386d3d59edaa18"
-    },
-    {
-      "path": "registrierung.html",
-      "bytes": 784,
-      "sha256": "e8cfb1bb30e77b28749c59bce44972278251f63ef17d33de9e84e0216ea97050"
-    },
-    {
-      "path": "software.html",
-      "bytes": 776,
-      "sha256": "4544a69107014fefa46b494b28ed4f01201bd30d2f9d2926e17bbcb4f27bf06a"
+      "bytes": 20789,
+      "sha256": "b5bd034953e8563e5894ae06caf1acd696b4e9362f6b5b812f3674c4591570c6"
     },
     {
       "path": "tests/registration-smoke.mjs",
@@ -280,18 +240,118 @@
     },
     {
       "path": "webseite/LIESMICH.txt",
-      "bytes": 4845,
-      "sha256": "f54ce0ba344356239378eace1ce6fcf66537cea8d03fc01cf2a7df523d5114e4"
+      "bytes": 5112,
+      "sha256": "87ca70e2298c93115ca2b75315691716c47ca75c52397ed2e30ee4e6a5deb764"
     },
     {
       "path": "webseite/altes-setup.html",
-      "bytes": 6728,
-      "sha256": "c6ec01fd7fc793e8a7c87f9524997dd4402cecd523a3199b55f78ea005531982"
+      "bytes": 9952,
+      "sha256": "d7a09053d0e3c796a963f696c78f3f535d60250fa7a893bd1a1ec5e1e0440046"
+    },
+    {
+      "path": "webseite/assets/01_Dual-X-Grafikkarte_bearbeitet.png",
+      "bytes": 2643397,
+      "sha256": "6a046ddedb718a7bcd7fb1a38f9bb48ba625273486fda546ff38ac414ef1227f"
+    },
+    {
+      "path": "webseite/assets/02_ROG-Maus_Staub-entfernt.png",
+      "bytes": 2183719,
+      "sha256": "d226d3c6474f155c9d675768f6a0af8e2ab96a79c799b1d9795f2574b8b4f007"
+    },
+    {
+      "path": "webseite/assets/03_ROG-Maus_Ansicht-01.png",
+      "bytes": 1807346,
+      "sha256": "717cf14dded4653953d867fa7c44357093a4975b60e1d78b45296bc51eff3f74"
+    },
+    {
+      "path": "webseite/assets/04_ROG-Maus_Ansicht-02.png",
+      "bytes": 1817207,
+      "sha256": "e6e59e603cc854836c5f80ef8d92924f556b06a712c2470aa642e856a279f232"
+    },
+    {
+      "path": "webseite/assets/05_ROG-Maus_Ansicht-03.png",
+      "bytes": 1849279,
+      "sha256": "2a2ab60bd32c835249b68cc570858e1df66b4fa7ec97f0e4d2492e65bc4dc7ca"
+    },
+    {
+      "path": "webseite/assets/06_ROG-Maus_Ansicht-04.png",
+      "bytes": 1906806,
+      "sha256": "2e3a2b1c1e18c56f80a64c6473c7b52a1a5ac117855a6a5d04336d581c167b5f"
+    },
+    {
+      "path": "webseite/assets/07_ROG-Maus_Ansicht-05.png",
+      "bytes": 1978272,
+      "sha256": "2f0d085f054272341cb450a7f21d3fe037df85bf71f1251f078e8b7476ac7681"
     },
     {
       "path": "webseite/assets/08_ROG-Maus_Ansicht-06.png",
       "bytes": 2075162,
       "sha256": "9b5342590d99167714ac2c5b100d344d5e316fdd2891e38ae7aa9dc8d123dbc4"
+    },
+    {
+      "path": "webseite/assets/09_ROG-Maus_Ansicht-07.png",
+      "bytes": 1963032,
+      "sha256": "d71f94df0cfa50c5371eb20e4117e4f5328710049021aaf23b28f1e00503326d"
+    },
+    {
+      "path": "webseite/assets/1000157680_bearbeitet.png",
+      "bytes": 2619673,
+      "sha256": "8aee5c1557cecfb2c4ae598623f0b3ef4d5da0faae28218a9ad245bc29fa3aca"
+    },
+    {
+      "path": "webseite/assets/1000157681_bearbeitet.png",
+      "bytes": 2636984,
+      "sha256": "7b797a9dd440f0264cd928daf4a5fadd2d26b1ec89e5a66a55c7b8a09c5f8a47"
+    },
+    {
+      "path": "webseite/assets/1000157683_bearbeitet.png",
+      "bytes": 2410220,
+      "sha256": "9723eba718a3eef3124da562f1a4fecd09cac8786598fca1a7f5bf528d87becb"
+    },
+    {
+      "path": "webseite/assets/1000157684_bearbeitet.png",
+      "bytes": 2385473,
+      "sha256": "fec91b262a05d149461e49ee3459548af7bb5d1d2956646a2d458410e9173913"
+    },
+    {
+      "path": "webseite/assets/1000157685_bearbeitet.png",
+      "bytes": 2507632,
+      "sha256": "8a49fa903d5cf81b110b273810d527573c6da6e073290beceb842def551e1db0"
+    },
+    {
+      "path": "webseite/assets/1000157686_bearbeitet.png",
+      "bytes": 2364382,
+      "sha256": "66fb05f81140b4aa6f64a5535e4aa4c6f5821f8ae1fb7df18b975e1fd5f80e77"
+    },
+    {
+      "path": "webseite/assets/1000157687_bearbeitet.png",
+      "bytes": 2308095,
+      "sha256": "a868c140b43f75daca4f9527b4ba11343acbadbdcf824461c0bda5b22905d71b"
+    },
+    {
+      "path": "webseite/assets/1000157688_bearbeitet.png",
+      "bytes": 2466449,
+      "sha256": "1b7e06f7af07683adbcb8dfe56b2d4d918d8bbb41b861e1ea10af40d9c73799b"
+    },
+    {
+      "path": "webseite/assets/1000157689_bearbeitet.png",
+      "bytes": 2438612,
+      "sha256": "70238a92ab93d5632c333a7903a1c0bd65497deb61a56ad7b6e710df8422dc20"
+    },
+    {
+      "path": "webseite/assets/1000157690_bearbeitet.png",
+      "bytes": 2645704,
+      "sha256": "7b018855cd37c20e4eac01c17629a0b46fab5259c39ef842200ec5c5ad7915d7"
+    },
+    {
+      "path": "webseite/assets/10_ROG-Maus_Ansicht-08.png",
+      "bytes": 2259570,
+      "sha256": "4f6fbf665aa6d25eeeb7a21f8aca114352d5af260c8858ca462bd91cad5de94e"
+    },
+    {
+      "path": "webseite/assets/11_ROG-Maus_Ansicht-09.png",
+      "bytes": 2139489,
+      "sha256": "0a130a1f93213724890ef40adafd186be18bf7f8d3feadfc0a676845ce86c4f0"
     },
     {
       "path": "webseite/assets/13_Anfang_bearbeitet.png",
@@ -314,6 +374,36 @@
       "sha256": "23e6bde2706cc81bc27c460f0107e976648efce1fae28b73e6f3ddbb94c5c772"
     },
     {
+      "path": "webseite/assets/17_Grafikkarten-auf-Staendern_bearbeitet.png",
+      "bytes": 2471171,
+      "sha256": "53f19cf9e787abb1d82a19da459ffea2f34a393561afeec3d8c037bd59e57293"
+    },
+    {
+      "path": "webseite/assets/18_Grafikkarten-Sammlung_bearbeitet.png",
+      "bytes": 2723775,
+      "sha256": "956f0bfb6824b4f04a0788c54170618dd15484542c147135142ddbb613f54189"
+    },
+    {
+      "path": "webseite/assets/19_Weisser-PC_AORUS-ASUS_bearbeitet.png",
+      "bytes": 2289789,
+      "sha256": "05d5544ae8a5c6d78adb9e8b82cffca85231355bb22c3c635749ec37d927cbee"
+    },
+    {
+      "path": "webseite/assets/20_ASUS-DUAL-Radeon-Verpackung_bearbeitet.png",
+      "bytes": 2076862,
+      "sha256": "df4f87713b5e51f7b47f63885e8f47bfe79c9b97106a9c8b119a8259399019ac"
+    },
+    {
+      "path": "webseite/assets/21_Altes-Setup_2022-12-07_bearbeitet.png",
+      "bytes": 2255587,
+      "sha256": "83e94a46722503f085043f664ef1a7375cb96f73da8c05220a5d0938abacebfe"
+    },
+    {
+      "path": "webseite/assets/22_Altes-Setup_2022-12-06_bearbeitet.png",
+      "bytes": 2062535,
+      "sha256": "5709228dd29498f6df367945f8c62024a4920309c48c15a2bd1c300f1bc4e7e7"
+    },
+    {
       "path": "webseite/assets/23_PC-Aufbau_ohne-Rohre_bearbeitet.png",
       "bytes": 2277684,
       "sha256": "ced8b1340c17a1c8228863cb90993c29dc9b50f88c972324d3a34d70d13bd773"
@@ -327,6 +417,21 @@
       "path": "webseite/assets/25_Wasserkuehlung_Rote-Rohre_Detail-2.png",
       "bytes": 2249951,
       "sha256": "c0a21c78cc09e7e1143b855a5bb5828b10372322c1ccb5e0760f58e9c89a72e0"
+    },
+    {
+      "path": "webseite/assets/26_Wasserkuehlung_Gruene-Rohre_bearbeitet.png",
+      "bytes": 2330566,
+      "sha256": "02050c3ccab9846e2714fa32c4d4e9cc8f0700d0f06bf74cf658e4308c0d8015"
+    },
+    {
+      "path": "webseite/assets/27_PC-Innenraum_Golden-Field_bearbeitet.png",
+      "bytes": 2360309,
+      "sha256": "d42bb2c6565481b4389faea6a3356284a0518f45bcb9072e6e39955f583b6f4b"
+    },
+    {
+      "path": "webseite/assets/28_Hardware-Wand_bearbeitet.png",
+      "bytes": 2385347,
+      "sha256": "50c38b8f99d3fcfc351461c2aa913523ba4c2abbc275c8bcbb75a52a82249d14"
     },
     {
       "path": "webseite/assets/discord-app.png",
@@ -400,8 +505,8 @@
     },
     {
       "path": "webseite/assets/site.css",
-      "bytes": 30277,
-      "sha256": "046bc3e5244870dbb81513e8521cce67c2ba93b210be007cf100ef153cd4fd12"
+      "bytes": 32628,
+      "sha256": "1cdf5c97364cd659ac7063cf44e3f001f6142d6a005172f5906aaefa7e69a249"
     },
     {
       "path": "webseite/assets/site.js",
@@ -455,13 +560,13 @@
     },
     {
       "path": "webseite/gaming-setup.html",
-      "bytes": 14334,
-      "sha256": "a54f10f3cacb017f229c88bb5dbf8cae5d45d6c631605a4b7c47ab50efac9d3c"
+      "bytes": 14462,
+      "sha256": "618ddf5b31989daeed2d336006c676a644bdfa3eb0dfa7516dca52896ad2c7c7"
     },
     {
       "path": "webseite/index.html",
-      "bytes": 10173,
-      "sha256": "256e00b53e6c5e7619f4b934a1664c33a14386f72e3db74af2fa9133a00be473"
+      "bytes": 23112,
+      "sha256": "66a23209ae0e09e9970155bc61ba252f2bcd0e4eb65ee37645d094c6afa55994"
     },
     {
       "path": "webseite/registrierung.html",

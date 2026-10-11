@@ -1,6 +1,6 @@
 # Crazy_Batto – Webseite
 
-Aktueller Stand: 11. Oktober 2026 · Version 7. Schwarzer Marmor mit Goldadern,
+Aktueller Stand: 10. Oktober 2026. Schwarzer Marmor mit Goldadern,
 anthrazitfarbene Flächen und helle Schrift.
 
 ## Enthaltene Seiten
@@ -20,14 +20,14 @@ Aus dem Repository-Hauptordner:
 python3 website/quellcode/build.py
 ```
 
-Anschließend `website/index.html` oder `website/webseite/index.html` im Browser öffnen. Alle Dateien
+Anschließend `website/webseite/index.html` im Browser öffnen. Alle Dateien
 und der Medienordner bleiben zusammen. Die Anmeldung zeigt offline ausdrücklich
 bezeichnete Beispielansichten und sendet keine Anfragen.
 
 Eine einzelne vollständige Offline-Datei mit allen Originalmedien erzeugen:
 
 ```bash
-python3 website/quellcode/offline/generate_offline_html.py --output Crazy_Batto-Webseite-NEUE-BILDER.html
+python3 website/quellcode/offline/generate_offline_html.py --output Crazy_Batto-Offline.html
 ```
 
 Das Header-GIF wird beim normalen Build bei Bedarf aus den SHA-256-geprüften
@@ -66,13 +66,3 @@ npm test
 Die Funktionsprüfungen für Registrierung verwenden DOM-Stubs. Das ist kein
 behaupteter Browser- oder Android-Test. Die zusätzlichen HTTP-Tests prüfen
 Seiten, Medien, bestehende Zugangssperren und die Medienwiederherstellung.
-
-## Korrigierter Bildaustausch
-
-Die ursprüngliche Seitenstruktur ist wiederhergestellt. Sieben vorhandene Fotos
-sind direkt durch die zugeordneten bearbeiteten PNGs ersetzt. Ein einzelnes
-Mausfoto ergänzt die ausdrücklich benannte Stelle bei Über mich. Der doppelte
-PC-Aufbau ist entfernt; die übrige Reihenfolge der vorhandenen Galerie bleibt.
-Die zusätzlichen Bereiche und Galerieumbauten aus V5 sowie der automatische
-Maus-Einstieg aus V6 sind zurückgenommen. Die Materialzuordnung steht in
-`BILDZUORDNUNG_WEBSEITE.csv`.
